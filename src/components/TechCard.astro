@@ -1,6 +1,4 @@
 ---
-import { Image } from "astro:assets";
-
 const {
   name,
   description,
@@ -20,7 +18,7 @@ const {
       </div>
     )
   }
-  <Image src={logo} alt={name} width={32} height={32} />
+  <img src={logo.src} alt={name} width="32" height="32" class="w-8 h-8" />
   <div class="mt-8 flex flex-col gap-2">
     <h2 class="font-serif text-2xl font-medium">{name}</h2>
     <p class="text-sm text-muted-foreground">{description}</p>
