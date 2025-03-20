@@ -10,7 +10,9 @@ export default defineConfig({
   adapter: vercel({ imageService: true }),
 
   image: {
-    service: "vercel",
+    service: {
+      entrypoint: "astro/assets/services/vercel",
+    },
   },
 
   vite: {
