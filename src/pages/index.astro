@@ -1,0 +1,36 @@
+---
+import { Image } from "astro:assets";
+
+import Layout from "@/layouts/Layout.astro";
+import ClientsList from "@/components/home/ClientsList.astro";
+import Projects from "@/components/home/Projects.astro";
+---
+
+<Layout title="Home">
+  <section class="py-24">
+    <h2
+      class="text-sm font-medium tracking-wider uppercase font-serif text-foreground-muted text-center"
+    >
+      Luis Anaya // +5 years of experience // Madrid, Spain
+    </h2>
+    <h1 class="text-7xl mt-6 uppercase text-center font-bold font-serif">
+      Full Stack Developer Specialised in Next.js, Tailwind CSS & Sanity CMS
+    </h1>
+
+    <Image
+      src="/src/assets/line-drawings/hero-icon.webp"
+      alt="Luis Alejandro Anaya Marín"
+      width={1080}
+      height={1080}
+      class="size-[560px] mx-auto mt-12 animate-spin duration-[100000ms]"
+    />
+
+    <div class="mt-12">
+      <ClientsList />
+    </div>
+  </section>
+
+  <div class="scroll-m-12" id="work">
+    <Projects />
+  </div>
+</Layout>

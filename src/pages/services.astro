@@ -1,0 +1,57 @@
+---
+import { getCollection } from "astro:content";
+import SERVICES_CATEGORIES from "@/data/services-categories.json";
+
+import Layout from "@/layouts/Layout.astro";
+import SectionHeading from "@/components/shared/SectionHeading.astro";
+import Bullet from "@/assets/bullet.svg";
+import PageTitle from "@/components/shared/PageTitle.astro";
+import PageDescription from "@/components/shared/PageDescription.astro";
+
+const services = await getCollection("services");
+
+const groupedServices = services.reduce(
+  (acc, service) => {
+    const categoryId = service.data.categoryId;
+    if (!acc[categoryId]) {
+      acc[categoryId] = [];
+    }
+    acc[categoryId].push(service);
+    return acc;
+  },
+  {} as Record<string, typeof services>
+);
+---
+
+<Layout title="Services">
+  <div class="mt-24 text-center flex flex-col gap-y-6 items-center">
+    <PageTitle title="Services" />
+    <PageDescription
+      description="I offer a range of services to help you achieve your goals. Whether you need a website, a logo, or a marketing campaign, I can help."
+    />
+  </div>
+
+  <div class="flex mt-24 flex-col gap-24">
+    {
+      SERVICES_CATEGORIES.map((category, index, array) => {
+        const categoryServices = groupedServices[category.id] || [];
+        return (
+          <div id={category.id} class="grid grid-cols-5 gap-12">
+            <div class="col-span-2">
+              <SectionHeading title={category.name} />
+              <p class="text-muted-foreground mt-4">{category.description}</p>
+            </div>
+            <ul class="grid grid-cols-2 gap-6 col-span-3 bg-background-muted rounded-lg p-12">
+              {categoryServices.map((service) => (
+                <li class="flex items-center gap-x-1">
+                  <Bullet class="text-accent" />
+                  {service.data.name}
+                </li>
+              ))}
+            </ul>
+          </div>
+        );
+      })
+    }
+  </div>
+</Layout>

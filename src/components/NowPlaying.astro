@@ -1,0 +1,62 @@
+---
+import Spotify from "@/assets/icons/logo-spotify.svg";
+
+import { getNowPlaying } from "@/lib/spotify";
+
+interface Props {
+  class?: string;
+}
+
+const { class: className } = Astro.props;
+
+let songData = {
+  isPlaying: false,
+  title: "",
+  artist: "",
+  songUrl: "",
+};
+
+try {
+  const response = await getNowPlaying();
+
+  if (response.status !== 204 && response.status <= 400) {
+    const song = await response.json();
+
+    if (song.item !== null) {
+      songData = {
+        isPlaying: song.is_playing,
+        title: song.item.name,
+        artist: song.item.artists
+          .map((_artist: any) => _artist.name)
+          .join(", "),
+        songUrl: song.item.external_urls.spotify,
+      };
+    }
+  }
+} catch (error) {
+  console.error("Error fetching now playing:", error);
+}
+---
+
+<div class:list={["flex items-center gap-x-1", className]}>
+  <a
+    href={`https://open.spotify.com/user/neverwas333333333`}
+    target="_blank"
+    rel="noreferrer"
+  >
+    <Spotify class="size-4 mr-2" />
+  </a>
+  {
+    songData.isPlaying ? (
+      <div class="flex gap-x-1 whitespace-nowrap">
+        <a href={songData.songUrl} target="_blank" rel="noreferrer">
+          {songData.title}
+        </a>
+        <span> — </span>
+        <span>{songData.artist}</span>
+      </div>
+    ) : (
+      <div>Not playing</div>
+    )
+  }
+</div>

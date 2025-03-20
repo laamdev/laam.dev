@@ -1,0 +1,35 @@
+---
+import { Image } from "astro:assets";
+
+const { project } = Astro.props;
+const { id, data } = project;
+const { mainImage, title, year } = data;
+---
+
+<a
+  href={`/work/${id}`}
+  class="flex flex-col relative h-[32rem] rounded bg-background-muted border border-border"
+>
+  <div class="absolute inset-0 flex items-center justify-center p-12">
+    <div
+      class="group rounded w-full transition-transform duration-300 ease-out hover:-translate-y-2"
+    >
+      <Image
+        src={mainImage}
+        alt={title}
+        width={1800}
+        height={1125}
+        class="rounded bg-gradient-to-b text-foreground-muted from-transparent to-zinc-800 text-center flex items-center justify-center w-full h-auto shadow-lg transition-shadow duration-300 ease-out group-hover:shadow-xl"
+      />
+    </div>
+  </div>
+
+  <div
+    class="absolute bottom-0 left-0 right-0 flex justify-between items-center w-full p-6"
+  >
+    <h2 class="font-serif text-lg font-medium">
+      {title}
+    </h2>
+    <p class="text-foreground-muted">{year}</p>
+  </div>
+</a>

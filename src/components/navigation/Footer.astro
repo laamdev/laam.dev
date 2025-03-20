@@ -1,0 +1,76 @@
+---
+import Github from "@/assets/contact/logo-github.svg";
+import Linkedin from "@/assets/contact/logo-linkedin.svg";
+import Instagram from "@/assets/contact/logo-instagram.svg";
+import X from "@/assets/contact/logo-x.svg";
+import ArrowUp from "@/assets/icons/arrow-up.svg";
+import NowPlaying from "@/components/NowPlaying.astro";
+
+const currentYear = new Date().getFullYear();
+---
+
+<footer
+  class="pt-24 pb-36 bg-background-muted mt-24 mb-6 p-12 rounded-lg relative"
+>
+  <div class="flex justify-between">
+    <div class="flex flex-col gap-y-3">
+      <p class="text-foreground-muted">
+        Want to work together? Feel free to reach out.
+      </p>
+      <a
+        href="mailto:hello@laam.dev"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="text-white hover:text-accent text-2xl font-serif uppercase font-bold transition-all duration-300"
+        >hello@laam.dev</a
+      >
+    </div>
+    <div class="flex gap-x-6">
+      <a
+        href="https://github.com/laam"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="grayscale hover:grayscale-0 transition-all duration-300 hover:scale-110"
+        ><Github class="size-6" />
+      </a>
+      <a
+        href="https://github.com/laam"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="grayscale hover:grayscale-0 transition-all duration-300 hover:scale-110"
+        ><Linkedin class="size-6" />
+      </a>
+      <a
+        href="https://github.com/laam"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="grayscale hover:grayscale-0 transition-all duration-300 hover:scale-110"
+        ><Instagram class="size-6" />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/laam"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="grayscale hover:grayscale-0 transition-all duration-300 hover:scale-110"
+      >
+        <X class="size-6" />
+      </a>
+    </div>
+  </div>
+  <div class="absolute bottom-4 inset-x-4 flex justify-between items-center">
+    <p class="text-foreground-muted text-xs opacity-50">
+      &copy; {currentYear} Luis Anaya. All rights reserved.
+    </p>
+    <a href="#top">
+      <ArrowUp
+        class="size-4 grayscale hover:grayscale-0 transition-all duration-300"
+      />
+    </a>
+  </div>
+
+  <div class="absolute bottom-12 inset-x-0">
+    <div class="flex flex-col justify-center items-center gap-y-6">
+      <NowPlaying class="text-foreground-muted text-base" />
+    </div>
+  </div>
+</footer>

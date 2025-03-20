@@ -1,0 +1,111 @@
+---
+import { Image } from "astro:assets";
+import { getCollection, render } from "astro:content";
+
+import Layout from "@/layouts/Layout.astro";
+import ServiceBadge from "@/components/shared/ServiceBadge.astro";
+import ProjectDetail from "@/components/project/ProjectDetail.astro";
+import { buttonVariants } from "@/components/ui/button";
+import PageTitle from "@/components/shared/PageTitle.astro";
+import PageDescription from "@/components/shared/PageDescription.astro";
+
+import { cn } from "@/lib/utils";
+
+export async function getStaticPaths() {
+  const projects = await getCollection("projects");
+
+  return projects.map((project) => ({
+    params: { id: project.id },
+    props: {
+      project,
+    },
+  }));
+}
+
+const { project } = Astro.props;
+
+const { data, id } = project;
+const {
+  title,
+  description,
+  year,
+  mainImage,
+  siteUrl,
+  client,
+  services,
+  codeUrl,
+} = data;
+
+const { Content, headings } = await render(project);
+
+export const prerender = true;
+---
+
+<Layout title={`${title}`}>
+  <div class="mt-24 text-center flex flex-col gap-y-6 items-center">
+    <PageTitle title={title} />
+    <PageDescription description={description} />
+  </div>
+
+  <div
+    class="grid p-6 mt-12 mb-24 rounded-lg divide-x grid-cols-1 bg-background-muted sm:grid-cols-4 gap-6"
+  >
+    <ProjectDetail label="Client">
+      {client ?? "Personal"}
+    </ProjectDetail>
+    <ProjectDetail label="Year">
+      {year}
+    </ProjectDetail>
+    <ProjectDetail label="Category">
+      {client ? "Professional" : "Personal"}
+    </ProjectDetail>
+    <ProjectDetail label="Category">
+      <a
+        href={siteUrl}
+        target="_blank"
+        class={cn(buttonVariants({ variant: "outline" }))}>Visit Website</a
+      >
+      <a
+        href={codeUrl}
+        target="_blank"
+        class={cn(buttonVariants({ variant: "outline" }))}>View Repo</a
+      >
+    </ProjectDetail>
+  </div>
+
+  <Image
+    src={mainImage}
+    alt={title}
+    width={1920}
+    height={1080}
+    transition:name={`project-${id}`}
+    class="w-full h-auto rounded-lg"
+  />
+
+  <div class="grid grid-cols-1 sm:grid-cols-5 gap-24 pt-24">
+    <div class="col-span-2">
+      <div class="flex flex-wrap gap-2">
+        {services.map((service) => <ServiceBadge service={service} />)}
+      </div>
+    </div>
+    <div class="prose prose-lg prose-invert col-span-3 max-w-5xl">
+      <Content />
+    </div>
+  </div>
+</Layout>
+
+<!-- <script>
+  import { SCORE_API_ENDPOINT } from "astro:env/client";
+
+  const scoreElement = document.getElementById("score");
+
+  if (scoreElement) {
+    fetch(SCORE_API_ENDPOINT)
+      .then((res) => res.text())
+      .then((scoreValue) => {
+        if (scoreElement) {
+          scoreElement.innerHTML = `Score: ${scoreValue}`;
+        }
+        });
+        }
+        </script> -->

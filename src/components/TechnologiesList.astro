@@ -1,0 +1,53 @@
+---
+import { getCollection } from "astro:content";
+
+import TechCard from "@/components/TechCard.astro";
+import SectionHeading from "@/components/shared/SectionHeading.astro";
+
+const technologies = await getCollection("technologies");
+
+// Sort technologies by order within each category
+const sortedTechnologies = technologies.sort(
+  (a, b) => a.data.order - b.data.order
+);
+
+// Group technologies by category
+const groupedTechnologies = sortedTechnologies.reduce(
+  (acc, tech) => {
+    const category = tech.data.category;
+    if (!acc[category]) {
+      acc[category] = [];
+    }
+    acc[category].push(tech);
+    return acc;
+  },
+  {} as Record<string, typeof technologies>
+);
+---
+
+<div>
+  <div class="flex flex-col gap-24">
+    {
+      Object.entries(groupedTechnologies).map(([category, techList]) => (
+        <div class="grid grid-cols-7 gap-x-24">
+          <div class="col-span-2">
+            <SectionHeading title={category} />
+          </div>
+          <div class="col-span-5 grid grid-cols-1 sm:grid-cols-3 gap-8">
+            {techList.map((tech) => {
+              const { name, description, logo, isCore } = tech.data;
+              return (
+                <TechCard
+                  name={name}
+                  description={description}
+                  logo={logo}
+                  isCore={isCore}
+                />
+              );
+            })}
+          </div>
+        </div>
+      ))
+    }
+  </div>
+</div>

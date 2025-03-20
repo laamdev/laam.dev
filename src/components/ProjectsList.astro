@@ -1,0 +1,13 @@
+---
+import { getCollection } from "astro:content";
+
+import ProjectCard from "@/components/project/ProjectCard.astro";
+
+const projects = await getCollection("projects");
+---
+
+<div class="bg-background-muted">
+  <div class="py-16 gap-16 grid grid-cols-1 sm:grid-cols-2">
+    {projects.map((project) => <ProjectCard {...project.data} />)}
+  </div>
+</div>

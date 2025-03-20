@@ -1,0 +1,11 @@
+---
+import PageTitle from "@/components/shared/PageTitle.astro";
+import PageDescription from "@/components/shared/PageDescription.astro";
+
+const { title, description } = Astro.props;
+---
+
+<section class="py-24">
+  <PageTitle title={title} />
+  <PageDescription description={description} />
+</section>

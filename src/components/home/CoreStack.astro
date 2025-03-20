@@ -1,0 +1,28 @@
+---
+import SectionHeading from "@/components/shared/SectionHeading.astro";
+import { getCollection } from "astro:content";
+import TechCard from "@/components/TechCard.astro";
+
+const technologies = await getCollection("technologies");
+const coreTechnologies = technologies.filter((tech) => tech.data.isCore);
+---
+
+<div class="">
+  <SectionHeading title="Core Tech Stack" />
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+    {
+      coreTechnologies.map((tech) => {
+        const { name, description, logo, isCore } = tech.data;
+        return (
+          <TechCard
+            name={name}
+            description={description}
+            logo={logo}
+            isCore={isCore}
+            showCoreBadge={false}
+          />
+        );
+      })
+    }
+  </div>
+</div>

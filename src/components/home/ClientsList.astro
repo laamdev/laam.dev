@@ -1,0 +1,18 @@
+---
+import { getCollection } from "astro:content";
+
+import ClientsCarousel from "@/components/home/ClientsCarousel";
+
+const clients = await getCollection("clients");
+---
+
+<div>
+  <h2
+    class="text-sm font-medium tracking-wider uppercase font-serif text-foreground-muted text-center"
+  >
+    Trusted by consultancy agencies and small businesses
+  </h2>
+  <div class="mt-12">
+    <ClientsCarousel client:load {clients} />
+  </div>
+</div>

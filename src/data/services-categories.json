@@ -1,0 +1,17 @@
+[
+  {
+    "id": "tech",
+    "name": "Technology",
+    "description": "From modern web applications to complex backend systems, I provide comprehensive technical solutions using cutting-edge technologies. Specializing in Next.js, React, and full-stack development, I build scalable, performant, and maintainable applications that drive business growth."
+  },
+  {
+    "id": "design",
+    "name": "Design",
+    "description": "Creating intuitive and engaging user experiences through thoughtful interface design and interaction patterns. I focus on accessibility, performance, and user-centered design principles to deliver interfaces that are both beautiful and functional."
+  },
+  {
+    "id": "growth",
+    "name": "Growth",
+    "description": "Optimizing your digital presence for maximum impact through technical SEO, performance optimization, and analytics implementation. I help businesses scale their online operations with data-driven strategies and continuous improvement."
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "1",
+    "name": "Frontend Development",
+    "categoryId": "tech"
+  },
+  {
+    "id": "2",
+    "name": "Backend Development",
+    "categoryId": "tech"
+  },
+  {
+    "id": "3",
+    "name": "Full Stack Development",
+    "categoryId": "tech"
+  },
+  {
+    "id": "4",
+    "name": "Headless CMS Integration",
+    "categoryId": "tech"
+  },
+  {
+    "id": "5",
+    "name": "Progressive Web Apps",
+    "categoryId": "tech"
+  },
+  {
+    "id": "6",
+    "name": "Headless eCommerce",
+    "categoryId": "tech"
+  },
+  {
+    "id": "7",
+    "name": "Legacy Code Migration",
+    "categoryId": "tech"
+  },
+  {
+    "id": "8",
+    "name": "Replatforming & Data Migration",
+    "categoryId": "tech"
+  },
+  {
+    "id": "9",
+    "name": "UI/UX Design",
+    "categoryId": "design"
+  },
+  {
+    "id": "10",
+    "name": "Design System",
+    "categoryId": "design"
+  },
+  {
+    "id": "11",
+    "name": "Technical SEO",
+    "categoryId": "growth"
+  },
+  {
+    "id": "12",
+    "name": "Website Optimisation",
+    "categoryId": "growth"
+  },
+  {
+    "id": "13",
+    "name": "Payment Gateway Integration",
+    "categoryId": "growth"
+  },
+  {
+    "id": "14",
+    "name": "Analytics",
+    "categoryId": "growth"
+  },
+  {
+    "id": "15",
+    "name": "Accessibility Audit",
+    "categoryId": "growth"
+  },
+  {
+    "id": "16",
+    "name": "Email Marketing Automation",
+    "categoryId": "growth"
+  },
+  {
+    "id": "17",
+    "name": "Continuous Maintenance",
+    "categoryId": "growth"
+  }
+]

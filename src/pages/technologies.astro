@@ -1,0 +1,19 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import PageTitle from "@/components/shared/PageTitle.astro";
+import PageDescription from "@/components/shared/PageDescription.astro";
+import TechnologiesList from "@/components/TechnologiesList.astro";
+---
+
+<Layout title="Technologies">
+  <div class="mt-24 text-center flex flex-col gap-y-6 items-center">
+    <PageTitle title="Tech Stack" />
+    <PageDescription
+      description="I offer a range of services to help you achieve your goals. Whether you need a website, a logo, or a marketing campaign, I can help."
+    />
+  </div>
+
+  <div class="mt-24">
+    <TechnologiesList />
+  </div>
+</Layout>
