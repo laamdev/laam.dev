@@ -3,7 +3,7 @@ order: 3
 title: GP Rivals
 description: xxx
 year: 2024
-mainImage: /src/assets/work/gp-rivals/main.webp
+mainImage: ../../assets/work/gp-rivals/main.webp
 category: Marketing
 codeUrl: https://github.com/laamdev/gp-rivals
 siteUrl: https://gp-rivals.vercel.app

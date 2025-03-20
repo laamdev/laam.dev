@@ -4,7 +4,7 @@ title: PTR
 description: Site redesign & content overhaul for an eco-responsible personal care brand.
 year: 2024
 client: PTR Associates
-mainImage: /src/assets/work/ptr/main.webp
+mainImage: ../../assets/work/ptr/main.webp
 category: Marketing
 codeUrl: https://github.com/ianr78/wwwptr
 siteUrl: https://www.ptr.co.uk/

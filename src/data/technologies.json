@@ -3,7 +3,7 @@
     "name": "Next.js",
     "slug": "nextjs",
     "description": "A modern React framework for building fast, scalable, and efficient web applications.",
-    "logo": "/src/assets/technologies/logo-next.svg",
+    "logo": "../../assets/technologies/logo-next.svg",
     "category": "Frameworks",
     "isCore": true,
     "order": 1
@@ -12,7 +12,7 @@
     "name": "Astro",
     "slug": "astro",
     "description": "A fast, content-focused web framework with a lightweight approach.",
-    "logo": "/src/assets/technologies/logo-astro.svg",
+    "logo": "../../assets/technologies/logo-astro.svg",
     "category": "Frameworks",
     "order": 2
   },
@@ -20,7 +20,7 @@
     "name": "Tailwind",
     "slug": "tailwind",
     "description": "A utility-first CSS framework with pre-built classes for fast, responsive, and customizable UI design.",
-    "logo": "/src/assets/technologies/logo-tailwind.svg",
+    "logo": "../../assets/technologies/logo-tailwind.svg",
     "category": "Styling",
     "isCore": true,
     "order": 1
@@ -29,7 +29,7 @@
     "name": "shadcn/ui",
     "slug": "shadcn-ui",
     "description": "Pre-built UI components using Radix UI and Tailwind CSS.",
-    "logo": "/src/assets/technologies/logo-shadcnui.svg",
+    "logo": "../../assets/technologies/logo-shadcnui.svg",
     "category": "Styling",
     "order": 2
   },
@@ -37,7 +37,7 @@
     "name": "Motion",
     "slug": "motion",
     "description": "A React animation library for smooth and interactive UIs.",
-    "logo": "/src/assets/technologies/logo-motion.svg",
+    "logo": "../../assets/technologies/logo-motion.svg",
     "category": "Styling",
     "order": 3
   },
@@ -45,7 +45,7 @@
     "name": "Sanity",
     "slug": "sanity",
     "description": "A real-time, headless CMS for structured content creation and management.",
-    "logo": "/src/assets/technologies/logo-sanity.svg",
+    "logo": "../../assets/technologies/logo-sanity.svg",
     "category": "CMS",
     "isCore": true,
     "order": 1
@@ -54,7 +54,7 @@
     "name": "Payload",
     "slug": "payload",
     "description": "A developer-first headless CMS with flexible APIs.",
-    "logo": "/src/assets/technologies/logo-payload.svg",
+    "logo": "../../assets/technologies/logo-payload.svg",
     "category": "CMS",
     "order": 2
   },
@@ -62,7 +62,7 @@
     "name": "Contentful",
     "slug": "contentful",
     "description": "A cloud-based headless CMS for seamless content delivery.",
-    "logo": "/src/assets/technologies/logo-contentful.svg",
+    "logo": "../../assets/technologies/logo-contentful.svg",
     "category": "CMS",
     "order": 3
   },
@@ -70,7 +70,7 @@
     "name": "Neon",
     "slug": "neon",
     "description": "A serverless Postgres database with auto-scaling features.",
-    "logo": "/src/assets/technologies/logo-neon.svg",
+    "logo": "../../assets/technologies/logo-neon.svg",
     "category": "Databases",
     "order": 1
   },
@@ -78,7 +78,7 @@
     "name": "Supabase",
     "slug": "supabase",
     "description": "An open-source Firebase alternative with Postgres and real-time sync.",
-    "logo": "/src/assets/technologies/logo-supabase.svg",
+    "logo": "../../assets/technologies/logo-supabase.svg",
     "category": "Databases",
     "order": 2
   },
@@ -86,7 +86,7 @@
     "name": "Turso",
     "slug": "turso",
     "description": "A distributed, edge-hosted database optimized for low-latency queries.",
-    "logo": "/src/assets/technologies/logo-turso.svg",
+    "logo": "../../assets/technologies/logo-turso.svg",
     "category": "Databases",
     "order": 3
   },
@@ -94,7 +94,7 @@
     "name": "PlanetScale",
     "slug": "planetscale",
     "description": "A scalable, serverless MySQL database platform built on Vitess.",
-    "logo": "/src/assets/technologies/logo-planetscale.svg",
+    "logo": "../../assets/technologies/logo-planetscale.svg",
     "category": "Databases",
     "order": 4
   },
@@ -102,7 +102,7 @@
     "name": "MongoDB Atlas",
     "slug": "mongodb-atlas",
     "description": "A fully managed cloud-based NoSQL database service.",
-    "logo": "/src/assets/technologies/logo-mongo.svg",
+    "logo": "../../assets/technologies/logo-mongo.svg",
     "category": "Databases",
     "order": 5
   },
@@ -110,7 +110,7 @@
     "name": "Drizzle",
     "slug": "drizzle",
     "description": "A lightweight, TypeScript-first ORM for SQL databases.",
-    "logo": "/src/assets/technologies/logo-drizzle.svg",
+    "logo": "../../assets/technologies/logo-drizzle.svg",
     "category": "ORM",
     "order": 1
   },
@@ -118,7 +118,7 @@
     "name": "Prisma",
     "slug": "prisma",
     "description": "A next-gen Node.js ORM with a type-safe API.",
-    "logo": "/src/assets/technologies/logo-prisma.svg",
+    "logo": "../../assets/technologies/logo-prisma.svg",
     "category": "ORM",
     "order": 2
   },
@@ -126,7 +126,7 @@
     "name": "Vercel",
     "slug": "vercel",
     "description": "A cloud platform for deploying static sites and serverless functions.",
-    "logo": "/src/assets/technologies/logo-vercel.svg",
+    "logo": "../../assets/technologies/logo-vercel.svg",
     "category": "Other",
     "order": 1
   },
@@ -134,7 +134,7 @@
     "name": "Stripe",
     "slug": "stripe",
     "description": "A payment processing platform for online businesses.",
-    "logo": "/src/assets/technologies/logo-stripe.svg",
+    "logo": "../../assets/technologies/logo-stripe.svg",
     "category": "Other",
     "order": 2
   },
@@ -142,7 +142,7 @@
     "name": "Zustand",
     "slug": "zustand",
     "description": "A lightweight and scalable state management library.",
-    "logo": "/src/assets/technologies/logo-zustand.svg",
+    "logo": "../../assets/technologies/logo-zustand.svg",
     "category": "Other",
     "order": 3
   },
@@ -150,7 +150,7 @@
     "name": "Clerk",
     "slug": "clerk",
     "description": "An authentication and user management service.",
-    "logo": "/src/assets/technologies/logo-clerk.svg",
+    "logo": "../../assets/technologies/logo-clerk.svg",
     "category": "Other",
     "order": 4
   },
@@ -158,7 +158,7 @@
     "name": "Elasticsearch",
     "slug": "elasticsearch",
     "description": "A distributed search engine based on Apache Lucene.",
-    "logo": "/src/assets/technologies/logo-elasticsearch.svg",
+    "logo": "../../assets/technologies/logo-elasticsearch.svg",
     "category": "Other",
     "order": 5
   },
@@ -166,7 +166,7 @@
     "name": "React Query",
     "slug": "react-query",
     "description": "A distributed search engine based on Apache Lucene.",
-    "logo": "/src/assets/technologies/logo-reactquery.svg",
+    "logo": "../../assets/technologies/logo-reactquery.svg",
     "category": "Other",
     "order": 5
   }

@@ -4,7 +4,7 @@ title: Bukitt Camino
 description: Site redesign & content overhaul for an eco-responsible personal care brand.
 year: 2023
 client: Bluefin Aviation Services
-mainImage: /src/assets/work/bukitt-camino/main.webp
+mainImage: ../../assets/work/bukitt-camino/main.webp
 category: Marketing
 services: ["Legacy Code Migration", "Visual Redesign"]
 ---

@@ -4,7 +4,7 @@ title: Bukitt
 description: Site redesign & content overhaul for an eco-responsible personal care brand.
 year: 2023
 client: Bluefin Aviation Services
-mainImage: /src/assets/work/bukitt/main.webp
+mainImage: ../../assets/work/bukitt/main.webp
 category: Marketing
 services: ["Legacy Code Migration", "Visual Redesign"]
 ---

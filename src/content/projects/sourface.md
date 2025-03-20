@@ -4,7 +4,7 @@ title: SourFace
 description: Site redesign & content overhaul for an eco-responsible personal care brand.
 year: 2024
 client: Full Stack Consulting
-mainImage: /src/assets/work/sourface/main.webp
+mainImage: ../../assets/work/sourface/main.webp
 category: eCommerce
 codeUrl: https://github.com/laamdev/sourface-ecommerce
 siteUrl: https://sourface.vercel.app

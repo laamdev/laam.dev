@@ -4,7 +4,7 @@ title: Buy a Rug
 description: Site redesign & content overhaul for an eco-responsible personal care brand.
 year: 2023
 client: Full Stack Consulting
-mainImage: /src/assets/work/buy-a-rug/main.webp
+mainImage: ../../assets/work/buy-a-rug/main.webp
 category: Marketing
 codeUrl: https://github.com/bluefinaviation/bluefin-aviation-website
 siteUrl: https://www.bluefinaviation.com/

@@ -5,7 +5,7 @@ description: Site redesign & content overhaul for an eco-responsible personal ca
 year: 2024
 client: Nuela
 role: in-house
-mainImage: /src/assets/work/my-exit/main.webp
+mainImage: ../../assets/work/my-exit/main.webp
 category: Marketing
 codeUrl: https://github.com/bluefinaviation/bluefin-aviation-website
 siteUrl: https://www.myexit.uk
