@@ -48,7 +48,6 @@ export const clients = defineCollection({
     z.object({
       name: z.string(),
       description: z.string(),
-      logoUrl: z.string(),
       logo: image(),
     }),
 });

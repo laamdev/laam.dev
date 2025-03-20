@@ -7,6 +7,7 @@ import {
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel";
+import { Image } from "astro:assets";
 
 interface Props {
   clients: CollectionEntry<"clients">[];
@@ -27,8 +28,8 @@ export default function ClientsCarousel({ clients }: Props) {
         <CarouselContent>
           {clients.map((client) => (
             <CarouselItem key={client.data.name} className="basis-1/5">
-              <img
-                src={client.data.logoUrl}
+              <Image
+                src={client.data.logo}
                 alt={client.data.name}
                 width={100}
                 height={100}
