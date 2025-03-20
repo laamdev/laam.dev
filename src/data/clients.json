@@ -3,54 +3,54 @@
     "id": "1",
     "name": "Bluefin Aviation",
     "description": "xxx.",
-    "logo": "../../assets/clients/bluefin-logo.webp"
+    "logo": "../assets/clients/bluefin-logo.webp"
   },
   {
     "id": "2",
     "name": "PTR Assosciates",
     "description": "xxx.",
-    "logo": "../../assets/clients/ptr-logo.webp"
+    "logo": "../assets/clients/ptr-logo.webp"
   },
   {
     "id": "3",
     "name": "Bukitt",
     "description": "xxx.",
-    "logo": "../../assets/clients/bukitt-logo.webp"
+    "logo": "../assets/clients/bukitt-logo.webp"
   },
   {
     "id": "4",
     "name": "Buy a Rug",
     "description": "xxx.",
-    "logo": "../../assets/clients/buy-a-rug-logo.webp"
+    "logo": "../assets/clients/buy-a-rug-logo.webp"
   },
   {
     "id": "5",
     "name": "Endurance Learning",
     "description": "xxx.",
-    "logo": "../../assets/clients/endurance-learning-logo.webp"
+    "logo": "../assets/clients/endurance-learning-logo.webp"
   },
   {
     "id": "6",
     "name": "Full Stack Consulting",
     "description": "xxx.",
-    "logo": "../../assets/clients/fullstack-consulting-logo.webp"
+    "logo": "../assets/clients/fullstack-consulting-logo.webp"
   },
   {
     "id": "7",
     "name": "Galería Canalejas",
     "description": "xxx.",
-    "logo": "../../assets/clients/galeria-canalejas-logo.webp"
+    "logo": "../assets/clients/galeria-canalejas-logo.webp"
   },
   {
     "id": "8",
     "name": "Nuela",
     "description": "xxx.",
-    "logo": "../../assets/clients/nuela-logo.webp"
+    "logo": "../assets/clients/nuela-logo.webp"
   },
   {
     "id": "9",
     "name": "Ubiqual",
     "description": "xxx.",
-    "logo": "../../assets/clients/ubiqual-logo.webp"
+    "logo": "../assets/clients/ubiqual-logo.webp"
   }
 ]

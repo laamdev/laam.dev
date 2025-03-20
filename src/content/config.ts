@@ -54,11 +54,10 @@ export const clients = defineCollection({
 
 export const services = defineCollection({
   loader: file("src/data/services.json"),
-  schema: ({ image }) =>
+  schema: () =>
     z.object({
       name: z.string(),
       categoryId: z.enum(["tech", "design", "growth"]),
-      logo: image(),
     }),
 });
 
