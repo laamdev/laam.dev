@@ -22,40 +22,45 @@ export const projects = defineCollection({
 
 export const technologies = defineCollection({
   loader: file("src/data/technologies.json"),
-  schema: z.object({
-    name: z.string(),
-    description: z.string(),
-    logo: z.string(),
-    category: z.enum([
-      "Frameworks",
-      "Styling",
-      "CMS",
-      "Databases",
-      "ORM",
-      "AI",
-      "Hosting",
-      "Other",
-    ]),
-    isCore: z.boolean().default(false),
-    order: z.number().default(999),
-  }),
+  schema: ({ image }) =>
+    z.object({
+      name: z.string(),
+      description: z.string(),
+      logo: image(),
+      category: z.enum([
+        "Frameworks",
+        "Styling",
+        "CMS",
+        "Databases",
+        "ORM",
+        "AI",
+        "Hosting",
+        "Other",
+      ]),
+      isCore: z.boolean().default(false),
+      order: z.number().default(999),
+    }),
 });
 
 export const clients = defineCollection({
   loader: file("src/data/clients.json"),
-  schema: z.object({
-    name: z.string(),
-    description: z.string(),
-    logoUrl: z.string(),
-  }),
+  schema: ({ image }) =>
+    z.object({
+      name: z.string(),
+      description: z.string(),
+      logoUrl: z.string(),
+      logo: image(),
+    }),
 });
 
 export const services = defineCollection({
   loader: file("src/data/services.json"),
-  schema: z.object({
-    name: z.string(),
-    categoryId: z.enum(["tech", "design", "growth"]),
-  }),
+  schema: ({ image }) =>
+    z.object({
+      name: z.string(),
+      categoryId: z.enum(["tech", "design", "growth"]),
+      logo: image(),
+    }),
 });
 
 // // export const countries = defineCollection({
