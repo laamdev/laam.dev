@@ -1,13 +1,13 @@
 import react from "@astrojs/react";
 import mdx from "@astrojs/mdx";
-import vercelStatic from "@astrojs/vercel/static";
+import vercelServerless from "@astrojs/vercel/serverless";
 import tailwindcss from "@tailwindcss/vite";
 
 import { defineConfig, envField } from "astro/config";
 
 export default defineConfig({
-  output: "static",
-  adapter: vercelStatic({ imageService: true }),
+  output: "server",
+  adapter: vercelServerless({ imageService: true }),
 
   vite: {
     plugins: [tailwindcss()],
