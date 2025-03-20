@@ -7,7 +7,7 @@ import { defineConfig, envField } from "astro/config";
 
 export default defineConfig({
   output: "server",
-  adapter: vercel(),
+  adapter: vercel({ imageService: true }),
 
   vite: {
     plugins: [tailwindcss()],
