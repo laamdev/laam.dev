@@ -9,6 +9,10 @@ export default defineConfig({
   output: "server",
   adapter: vercel({ imageService: true }),
 
+  image: {
+    service: "vercel",
+  },
+
   vite: {
     plugins: [tailwindcss()],
   },
