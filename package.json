@@ -4,8 +4,9 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
-    "preview": "deno run --allow-net --allow-read --allow-env ./dist/server/entry.mjs",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
     "astro": "astro",
     "sync": "bunx astro sync"
   },
