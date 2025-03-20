@@ -1,11 +1,18 @@
 ---
-
+import { MobileMenu } from "@/components/navigation/MobileMenu";
 ---
 
 <header>
-  <nav class="flex items-center justify-between">
-    <a href="/" class="text-2xl font-bold font-serif">LAAM</a>
-    <ul class="flex items-center gap-12 py-4">
+  <nav
+    class="flex sm:flex-row flex-col sm:items-center sm:justify-between relative"
+  >
+    <div class="flex justify-between items-center w-full sm:w-auto">
+      <a href="/" class="text-2xl font-bold font-serif">LAAM</a>
+      <MobileMenu client:load />
+    </div>
+
+    <!-- Desktop Navigation -->
+    <ul class="hidden sm:flex sm:flex-row sm:items-center sm:gap-12 py-4">
       <li>
         <a
           href="/#work"

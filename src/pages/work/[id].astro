@@ -48,7 +48,7 @@ export const prerender = true;
   </div>
 
   <div
-    class="grid p-6 mt-12 mb-24 rounded-lg divide-x grid-cols-1 bg-background-muted sm:grid-cols-4 gap-6"
+    class="grid p-4 md:p-6 mt-8 md:mt-12 mb-12 md:mb-24 rounded-lg grid-cols-1 bg-background-muted sm:grid-cols-2 lg:grid-cols-4 gap-6"
   >
     <ProjectDetail label="Client">
       {client ?? "Personal"}
@@ -59,17 +59,21 @@ export const prerender = true;
     <ProjectDetail label="Category">
       {client ? "Professional" : "Personal"}
     </ProjectDetail>
-    <ProjectDetail label="Category">
+    <ProjectDetail label="Links" class="flex flex-col gap-3">
       <a
         href={siteUrl}
         target="_blank"
-        class={cn(buttonVariants({ variant: "outline" }))}>Visit Website</a
+        class={cn(buttonVariants({ variant: "outline", size: "sm" }), "w-full")}
       >
+        Visit Website
+      </a>
       <a
         href={codeUrl}
         target="_blank"
-        class={cn(buttonVariants({ variant: "outline" }))}>View Repo</a
+        class={cn(buttonVariants({ variant: "outline", size: "sm" }), "w-full")}
       >
+        View Repo
+      </a>
     </ProjectDetail>
   </div>
 
@@ -88,7 +92,7 @@ export const prerender = true;
         {services.map((service) => <ServiceBadge service={service} />)}
       </div>
     </div>
-    <div class="prose prose-lg prose-invert col-span-3 max-w-5xl">
+    <div class="prose sm:prose-lg prose-invert col-span-3 max-w-5xl">
       <Content />
     </div>
   </div>

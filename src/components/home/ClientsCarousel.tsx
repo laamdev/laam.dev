@@ -26,7 +26,10 @@ export default function ClientsCarousel({ clients }: Props) {
       >
         <CarouselContent>
           {clients.map((client) => (
-            <CarouselItem key={client.data.name} className="basis-1/5">
+            <CarouselItem
+              key={client.data.name}
+              className="basis-1/2 sm:basis-1/5"
+            >
               <img
                 src={client.data.logo.src}
                 alt={client.data.name}

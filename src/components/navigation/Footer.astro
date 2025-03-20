@@ -10,22 +10,22 @@ const currentYear = new Date().getFullYear();
 ---
 
 <footer
-  class="pt-24 pb-36 bg-background-muted mt-24 mb-6 p-12 rounded-lg relative"
+  class="pt-24 pb-36 bg-background-muted sm:mt-24 mt-12 mb-6 p-12 rounded-lg relative"
 >
-  <div class="flex justify-between">
+  <div class="flex sm:flex-row flex-col sm:justify-between gap-y-12">
     <div class="flex flex-col gap-y-3">
-      <p class="text-foreground-muted">
+      <p class="text-foreground-muted text-center sm:text-left">
         Want to work together? Feel free to reach out.
       </p>
       <a
         href="mailto:hello@laam.dev"
         target="_blank"
         rel="noopener noreferrer"
-        class="text-white hover:text-accent text-2xl font-serif uppercase font-bold transition-all duration-300"
+        class="text-white hover:text-accent text-2xl font-serif uppercase font-bold transition-all duration-300 text-center sm:text-left"
         >hello@laam.dev</a
       >
     </div>
-    <div class="flex gap-x-6">
+    <div class="flex gap-x-6 sm:gap-x-12 justify-center sm:justify-start">
       <a
         href="https://github.com/laam"
         target="_blank"
@@ -57,18 +57,14 @@ const currentYear = new Date().getFullYear();
       </a>
     </div>
   </div>
-  <div class="absolute bottom-4 inset-x-4 flex justify-between items-center">
-    <p class="text-foreground-muted text-xs opacity-50">
-      &copy; {currentYear} Luis Anaya. All rights reserved.
-    </p>
-    <a href="#top">
-      <ArrowUp
-        class="size-4 grayscale hover:grayscale-0 transition-all duration-300"
-      />
-    </a>
-  </div>
 
-  <div class="absolute bottom-12 inset-x-0">
+  <a href="#top" class="absolute top-4 right-4">
+    <ArrowUp
+      class="size-4 grayscale hover:grayscale-0 transition-all duration-300"
+    />
+  </a>
+
+  <div class="absolute sm:bottom-4 bottom-12 inset-x-0">
     <div class="flex flex-col justify-center items-center gap-y-6">
       <NowPlaying class="text-foreground-muted text-base" />
     </div>
