@@ -33,7 +33,7 @@ const groupedServices = services.reduce(
 
   <div class="flex mt-24 flex-col gap-24">
     {
-      SERVICES_CATEGORIES.map((category, index, array) => {
+      SERVICES_CATEGORIES.map((category) => {
         const categoryServices = groupedServices[category.id] || [];
         return (
           <div id={category.id} class="grid grid-cols-5 gap-12">
