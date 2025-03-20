@@ -59,21 +59,29 @@ export const prerender = true;
     <ProjectDetail label="Category">
       {client ? "Professional" : "Personal"}
     </ProjectDetail>
-    <ProjectDetail label="Links" class="flex flex-col gap-3">
-      <a
-        href={siteUrl}
-        target="_blank"
-        class={cn(buttonVariants({ variant: "outline", size: "sm" }), "w-full")}
-      >
-        Visit Website
-      </a>
-      <a
-        href={codeUrl}
-        target="_blank"
-        class={cn(buttonVariants({ variant: "outline", size: "sm" }), "w-full")}
-      >
-        View Repo
-      </a>
+    <ProjectDetail label="Explore">
+      <div class="flex flex-col gap-2 sm:flex-row">
+        <a
+          href={siteUrl}
+          target="_blank"
+          class={cn(
+            buttonVariants({ variant: "default", size: "sm" }),
+            "w-full sm:w-auto"
+          )}
+        >
+          Visit Website
+        </a>
+        <a
+          href={codeUrl}
+          target="_blank"
+          class={cn(
+            buttonVariants({ variant: "outline", size: "sm" }),
+            "w-full sm:w-auto"
+          )}
+        >
+          View Repo
+        </a>
+      </div>
     </ProjectDetail>
   </div>
 

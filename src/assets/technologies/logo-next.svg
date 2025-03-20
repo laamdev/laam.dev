@@ -1,7 +1,7 @@
 <svg width="100%" height="100%" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
     <g>
         <g>
-            <circle cx="90" cy="90" r="87" style="fill:rgb(75,100,124);stroke:white;stroke-width:6px;"/>
+            <circle cx="90" cy="90" r="87" style="fill:rgb(75,100,124);stroke:white;strokeWidth:6px;"/>
             <path d="M149.508,157.52L69.142,54L54,54L54,125.97L66.114,125.97L66.114,69.384L139.999,164.845C143.333,162.614 146.509,160.165 149.508,157.52Z" style="fill:url(#_Linear1);fill-rule:nonzero;"/>
             <rect x="115" y="54" width="12" height="72" style="fill:url(#_Linear2);"/>
         </g>

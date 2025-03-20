@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+<svg width="100%" height="100%" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;strokeLinejoin:round;stroke-miterlimit:2;">
     <use xlink:href="#_Image1" x="0.75" y="0" width="11px" height="12px"/>
     <defs>
         <image id="_Image1" width="11px" height="12px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAMCAYAAAC0qUeeAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABR0lEQVQokU3RPWhTcRQF8N97+acvxqZRGgMpuKjgKN2ULG7iktHRISh2FlzcHdwcdYmbqGM2QSgi2YQuglDBODRIW7TRmBDz6fJS3oELF87hfpwTyaDV7pzFbXxFt9mo/8nyUSqKsY2bKOMtFin/vdmoDyFqtTtbuI4qkrTepOIqNnGA/YAHuIetzManq2ZpORv/m36ZzRcPY3zADl5ilL1xOpvv9Y76P3/9Hu6XioVvIRVM8QrvcXexWF4+7g+Go/FkGye1Svk5lvFqCP6ihxcHRydG48k1CLn4SWEt/wOTkHGlgivIixQgjqNurVJ+jYBpwAXcSL8GsSiZY3Nj/XPI5R7jI3YDDlHDxYz7yZkkf7heTIq4hD0MVqEE3MF9lHrH/avV86VuPuTe4VmzUe+dJrhCq905h53BaHyrVCw8ajbqn7L8f/EtZ4ABYr6ZAAAAAElFTkSuQmCC"/>

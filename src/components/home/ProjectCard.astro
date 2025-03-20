@@ -8,11 +8,11 @@ const { mainImage, title, year } = data;
 
 <a
   href={`/work/${id}`}
-  class="flex flex-col relative sm:h-[32rem] h-[20rem] rounded bg-background-muted border border-border"
+  class="flex flex-col group relative sm:h-[32rem] h-[20rem] rounded bg-background-muted border border-border"
 >
   <div class="absolute inset-0 flex items-center justify-center p-12">
     <div
-      class="group rounded w-full transition-transform duration-300 ease-out hover:-translate-y-2"
+      class="rounded w-full transition-transform duration-300 ease-out group-hover:-translate-y-2"
     >
       <Image
         src={mainImage}
