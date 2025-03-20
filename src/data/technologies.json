@@ -3,7 +3,7 @@
     "name": "Next.js",
     "slug": "nextjs",
     "description": "A modern React framework for building fast, scalable, and efficient web applications.",
-    "logo": "../../src/assets/technologies/logo-next.svg",
+    "logo": "../assets/technologies/logo-next.svg",
     "category": "Frameworks",
     "isCore": true,
     "order": 1
