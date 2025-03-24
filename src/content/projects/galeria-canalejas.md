@@ -4,10 +4,10 @@ title: Galería Canalejas
 description: xxx
 year: 2024
 mainImage: ../../assets/work/galeria-canalejas/main.webp
-category: Marketing
-codeUrl: https://github.com/laamdev/gp-rivals
-siteUrl: https://gp-rivals.vercel.app
-services: ["End-to-End Development"]
+category: Corporate Marketing
+siteUrl: https://www.galeriacanalejas.com/
+services: ["Legacy code migration"]
+technologies: ["Next.js"]
 ---
 
 ## Introduction

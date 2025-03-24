@@ -8,6 +8,7 @@ category: Portfolio
 codeUrl: https://github.com/laamdev/gp-rivals
 siteUrl: https://gp-rivals.vercel.app
 services: ["End-to-End Development"]
+technologies: ["Next.js"]
 ---
 
 ## Introduction

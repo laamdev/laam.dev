@@ -9,6 +9,7 @@ category: eCommerce
 codeUrl: https://github.com/laamdev/sourface-ecommerce
 siteUrl: https://sourface.vercel.app
 services: ["Legacy Code Migration", "Visual Redesign"]
+technologies: ["Next.js"]
 ---
 
 ## Introduction

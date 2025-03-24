@@ -6,10 +6,11 @@ year: 2024
 client: Nuela
 role: In-house Mid-Senior Dev
 mainImage: ../../assets/work/nuela/main.webp
-category: Marketing
+category: SaaS
 codeUrl: https://github.com/bluefinaviation/bluefin-aviation-website
 siteUrl: https://www.myexit.uk
 services: ["Legacy Code Migration", "Visual Redesign"]
+technologies: ["Next.js"]
 ---
 
 ## Introduction

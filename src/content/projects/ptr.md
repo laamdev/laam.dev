@@ -5,11 +5,12 @@ description: Site redesign & content overhaul for an eco-responsible personal ca
 year: 2024
 client: PTR Associates
 mainImage: ../../assets/work/ptr/main.webp
-category: Marketing
+category: Corporate Marketing
 codeUrl: https://github.com/ianr78/wwwptr
 siteUrl: https://www.ptr.co.uk/
 oldSiteUrl: https://web.archive.org/web/20241121231357/https://www.ptr.co.uk/
 services: ["Legacy Code Migration", "Visual Redesign"]
+technologies: ["Next.js"]
 ---
 
 ## Introduction

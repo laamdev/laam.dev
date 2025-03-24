@@ -4,10 +4,11 @@ title: GP Rivals
 description: xxx
 year: 2024
 mainImage: ../../assets/work/gp-rivals/main.webp
-category: Marketing
+category: Web App
 codeUrl: https://github.com/laamdev/gp-rivals
 siteUrl: https://gp-rivals.vercel.app
 services: ["End-to-End Development"]
+technologies: ["Next.js"]
 ---
 
 ## Introduction

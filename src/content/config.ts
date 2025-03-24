@@ -17,6 +17,7 @@ export const projects = defineCollection({
       codeUrl: z.string().optional(),
       siteUrl: z.string().optional(),
       services: z.array(reference("services")),
+      technologies: z.array(reference("technologies")),
     }),
 });
 
@@ -71,26 +72,10 @@ export const services = defineCollection({
     }),
 });
 
-// // export const countries = defineCollection({
-// //   loader: async () => {
-// //     const response = await fetch("https://restcountries.com/v3.1/all");
-// //     const data = await response.json();
-// //     return data.map((country: any) => ({
-// //       id: country.cca3,
-// //       name: country.name.common,
-// //     }));
-// //   },
-// //   schema: z.object({
-// //     id: z.string(),
-// //     name: z.string(),
-// //   }),
-// // });
-
 export const collections = {
   projects,
   technologies,
   clients,
   services,
   snippets,
-  // // countries,
 };

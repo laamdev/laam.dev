@@ -6,9 +6,10 @@ year: 2022
 role: External Consultant
 client: Endurance Learning
 mainImage: ../../assets/work/endurance-learning/main.webp
-category: Marketing
+category: SaaS
 siteUrl: https://endurancelearning.com/
 services: ["UX Consulting"]
+technologies: ["Next.js"]
 ---
 
 ## Introduction

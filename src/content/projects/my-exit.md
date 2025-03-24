@@ -5,10 +5,11 @@ description: Site redesign & content overhaul for an eco-responsible personal ca
 year: 2024
 client: Full Stack Consulting
 mainImage: ../../assets/work/my-exit/main.webp
-category: Marketing
+category: Corporate Marketing
 codeUrl: https://github.com/bluefinaviation/bluefin-aviation-website
 siteUrl: https://www.myexit.uk
 services: ["Legacy Code Migration", "Visual Redesign"]
+technologies: ["Next.js"]
 ---
 
 ## Introduction

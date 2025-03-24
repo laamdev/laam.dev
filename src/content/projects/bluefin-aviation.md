@@ -6,7 +6,7 @@ year: 2025
 role: Freelance
 client: Bluefin Aviation Services
 mainImage: "../../assets/work/bluefin-aviation/main.webp"
-category: Marketing
+category: Corporate Marketing
 codeUrl: https://github.com/bluefinaviation/bluefin-aviation-website
 siteUrl: https://www.bluefinaviation.com/
 oldSiteUrl: https://web.archive.org/web/20211217025348/http://bluefinaviation.com/
@@ -20,6 +20,7 @@ services:
     "Email Marketing Automation",
     "Analytics",
   ]
+technologies: ["Next.js"]
 ---
 
 ## Introduction

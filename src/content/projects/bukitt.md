@@ -5,8 +5,9 @@ description: Site redesign & content overhaul for an eco-responsible personal ca
 year: 2021
 client: Bluefin Aviation Services
 mainImage: ../../assets/work/bukitt/main.webp
-category: Marketing
-services: ["Legacy Code Migration", "Visual Redesign"]
+category: Corporate Marketing
+services: ["End-to-End Development"]
+technologies: ["Next.js"]
 ---
 
 ## Introduction

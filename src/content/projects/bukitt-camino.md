@@ -6,8 +6,11 @@ year: 2022
 role: In-house Main Dev
 client: Bluefin Aviation Services
 mainImage: ../../assets/work/bukitt-camino/main.webp
-category: Marketing
-services: ["Legacy Code Migration", "Visual Redesign"]
+category: Corporate Marketing
+siteUrl: https://www.bukittcamino.com/
+codeUrl: https://github.com/bukitt-travel/bukitt-camino-website
+services: ["End-to-End Development"]
+technologies: ["Next.js"]
 ---
 
 ## Introduction

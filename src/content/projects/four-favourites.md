@@ -8,6 +8,7 @@ mainImage: ../../assets/work/four-favourites/main.webp
 category: Web App
 siteUrl: https://www.fourfavourites.com/
 services: ["End-to-end development"]
+technologies: ["Next.js"]
 ---
 
 ## Introduction

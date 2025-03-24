@@ -26,16 +26,18 @@ export const prerender = true;
 
 <Layout title={title} description={description}>
   <article
-    class="prose prose-headings:font-serif prose-h1:uppercase prose-lg max-w-3xl mx-auto prose-invert"
+    class="prose prose-headings:font-serif prose-h1:uppercase max-w-3xl mx-auto prose-invert"
   >
     <div class="mt-24">
       <h1>
         {title}
       </h1>
-      <p class="text-zinc-400 text-xl -mt-6 font-medium">{description}</p>
+      <p class="opacity-50 text-xl font-medium">{description}</p>
     </div>
 
-    <div class="mt-24">
+    <hr class="bg-border h-0.5 w-full" />
+
+    <div>
       <Content />
     </div>
   </article>

@@ -8,6 +8,7 @@ client: Cristina Galán
 mainImage: ../../assets/work/cristina-galan/main.webp
 category: Portfolio
 services: ["End-to-end development", "UX/UI Design", "Branding"]
+technologies: ["Next.js"]
 ---
 
 ## Introduction
