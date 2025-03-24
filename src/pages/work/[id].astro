@@ -5,10 +5,12 @@ import { getCollection, render } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
 import ServiceBadge from "@/components/shared/ServiceBadge.astro";
 import ProjectDetail from "@/components/project/ProjectDetail.astro";
+import PageTitle from "@/components/shared/PageTitle.astro";
+import PageDescription from "@/components/shared/PageDescription.astro";
 import { buttonVariants } from "@/components/ui/button";
-import PageHeader from "@/components/shared/PageHeader.astro";
 
 import { cn } from "@/lib/utils";
+import PageHeader from "@/components/shared/PageHeader.astro";
 
 export async function getStaticPaths() {
   const projects = await getCollection("projects");

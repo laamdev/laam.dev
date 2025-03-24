@@ -6,7 +6,7 @@ import SERVICES_CATEGORIES from "@/data/services-categories.json";
 
 import Layout from "@/layouts/Layout.astro";
 import SectionHeading from "@/components/shared/SectionHeading.astro";
-import PageTitle from "@/components/shared/PageTitle.astro";
+import PageHeader from "@/components/shared/PageHeader.astro";
 
 const services = await getCollection("services");
 
@@ -27,7 +27,7 @@ const groupedServices = services.reduce(
   title="Services"
   description="Building modern, high-performance web experiences with Next.js & Tailwind CSS— from sleek UI/UX to powerful backends."
 >
-  <PageTitle title="Services" />
+  <PageHeader title="Services" />
 
   <div class="flex mt-12 md:mt-24 flex-col gap-12 md:gap-24">
     {

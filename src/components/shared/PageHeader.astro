@@ -11,10 +11,7 @@ import PageDescription from "@/components/shared/PageDescription.astro";
 ---
 
 <div class="my-24">
-  <div class="max-w-3xl flex flex-col gap-y-4 md:gap-y-6">
-    <PageTitle title={title} />
-    {description && <PageDescription description={description} />}
-  </div>
-
-  <hr class="bg-border h-0.5 mt-12 w-full" />
+  <PageTitle title={title} />
+  {description && <PageDescription description={description} />}
+  <hr class="bg-border mt-24 h-0.5 w-full" />
 </div>
