@@ -6,6 +6,12 @@ import SnippetCard from "@/components/snippets/SnippetCard.astro";
 import PageHeader from "@/components/shared/PageHeader.astro";
 
 const snippets = await getCollection("snippets");
+
+const sortedSnippets = snippets.sort((a, b) => {
+  const dateA = new Date(a.data.date);
+  const dateB = new Date(b.data.date);
+  return dateB.getTime() - dateA.getTime();
+});
 ---
 
 <Layout
@@ -14,7 +20,7 @@ const snippets = await getCollection("snippets");
 >
   <PageHeader title="Snippets" />
 
-  <section class="gap-y-12 mt-24 max-w-5xl flex flex-col">
-    {snippets.map((snippet) => <SnippetCard snippet={snippet} />)}
+  <section class="gap-y-12 mt-24 gap-6 grid grid-cols-1 sm:grid-cols-2">
+    {sortedSnippets.map((snippet) => <SnippetCard snippet={snippet} />)}
   </section>
 </Layout>

@@ -17,7 +17,12 @@ export async function getStaticPaths() {
 const { snippet } = Astro.props;
 
 const { data } = snippet;
-const { title, description } = data;
+const { title, description, date } = data;
+
+const formattedDate = date.toLocaleDateString("en-US", {
+  month: "2-digit",
+  year: "numeric",
+});
 
 const { Content } = await render(snippet);
 
@@ -29,6 +34,7 @@ export const prerender = true;
     class="prose prose-headings:font-serif prose-h1:uppercase max-w-3xl mx-auto prose-invert"
   >
     <div class="mt-24">
+      <p class="text-sm text-zinc-400 tracking-wider mb-2">{formattedDate}</p>
       <h1>
         {title}
       </h1>
