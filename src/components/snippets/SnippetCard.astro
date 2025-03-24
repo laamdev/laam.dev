@@ -13,13 +13,23 @@ const formattedDate = date.toLocaleDateString("en-US", {
 
 <a
   href={`/snippets/${snippet.id}`}
-  class="bg-background-muted rounded shadow-sm border border-border p-6 grid grid-cols-7 gap-x-12"
+  class="bg-background-muted rounded shadow-sm border border-border p-6 grid grid-cols-7 gap-x-12 hover:shadow-[0_0_30px_rgba(255,255,255,0.1)] hover:border-accent/50 transition-all duration-300 ease-out group"
 >
   <div class="col-span-6 flex flex-col gap-y-3">
-    <h2 class="text-2xl font-serif font-bold">{title}</h2>
-    <p class="text-base text-zinc-400">{description}</p>
+    <h2
+      class="text-2xl font-serif font-bold group-hover:text-accent transition-colors duration-300"
+    >
+      {title}
+    </h2>
+    <p
+      class="text-base text-zinc-400 group-hover:text-zinc-300 transition-colors duration-300"
+    >
+      {description}
+    </p>
   </div>
-  <p class="text-sm text-zinc-400 col-span-1 text-right tracking-wider">
+  <p
+    class="text-sm text-zinc-400 col-span-1 text-right tracking-wider group-hover:text-zinc-300 transition-colors duration-300"
+  >
     {formattedDate}
   </p>
 </a>

@@ -8,7 +8,7 @@ const { mainImage, title, year } = data;
 
 <a
   href={`/work/${id}`}
-  class="flex flex-col group relative sm:h-[32rem] h-[20rem] rounded bg-background-muted border border-border"
+  class="flex flex-col group relative sm:h-[32rem] h-[20rem] rounded bg-background-muted border border-border hover:shadow-[0_0_30px_rgba(255,255,255,0.1)] hover:border-accent/50 transition-all duration-300 ease-out"
 >
   <div class="absolute inset-0 flex items-center justify-center p-12">
     <div
@@ -20,7 +20,7 @@ const { mainImage, title, year } = data;
         width={1800}
         height={1125}
         transition:name={`project-${id}`}
-        class="rounded bg-gradient-to-b from-transparent to-zinc-800 text-center flex items-center justify-center w-full h-auto shadow-lg transition-shadow duration-300 ease-out group-hover:shadow-xl"
+        class="rounded bg-gradient-to-b from-transparent to-zinc-800 text-center flex items-center justify-center w-full h-auto shadow-lg transition-all duration-300 ease-out group-hover:shadow-[0_0_20px_rgba(255,255,255,0.15)]"
       />
     </div>
   </div>
@@ -28,9 +28,15 @@ const { mainImage, title, year } = data;
   <div
     class="absolute bottom-0 left-0 right-0 flex justify-between items-center w-full p-6"
   >
-    <h2 class="font-serif text-lg font-medium">
+    <h2
+      class="font-serif text-lg font-medium group-hover:text-accent transition-colors duration-300"
+    >
       {title}
     </h2>
-    <p class="opacity-50">{year}</p>
+    <p
+      class="opacity-50 group-hover:opacity-70 transition-opacity duration-300"
+    >
+      {year}
+    </p>
   </div>
 </a>

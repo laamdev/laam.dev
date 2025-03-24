@@ -35,6 +35,7 @@ export default function ClientsCarousel({ clients }: Props) {
                 alt={client.data.name}
                 width={100}
                 height={100}
+                className="grayscale"
               />
             </CarouselItem>
           ))}
