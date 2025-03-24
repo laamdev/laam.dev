@@ -1,0 +1,46 @@
+---
+import Section from "@/components/cv/Section.astro";
+import Heading from "@/components/cv/Heading.astro";
+import Subheading from "@/components/cv/Subheading.astro";
+import Body from "@/components/cv/Body.astro";
+
+import { work } from "@/data/cv.json";
+---
+
+<Section title="Work Experience">
+  <ul class="flex flex-col gap-8">
+    {
+      work.map(
+        ({ name, startDate, endDate, position, summary, highlights, url }) => {
+          const startYear = new Date(startDate).getFullYear();
+          const endYear =
+            endDate != null ? new Date(endDate).getFullYear() : "Now";
+          const years = `${startYear} - ${endYear}`;
+
+          return (
+            <li>
+              <article>
+                <header class="flex justify-between items-start mb-1">
+                  <div>
+                    <Heading>
+                      <a href={url} title={`See ${name}`} target="_blank">
+                        {name}
+                      </a>
+                    </Heading>
+                    <Subheading>{position}</Subheading>
+                  </div>
+
+                  <time class="text-sm text-primary-700">{years}</time>
+                </header>
+
+                <footer class="mt-2">
+                  <Body>{summary}</Body>
+                </footer>
+              </article>
+            </li>
+          );
+        }
+      )
+    }
+  </ul>
+</Section>

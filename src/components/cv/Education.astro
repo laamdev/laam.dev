@@ -1,0 +1,39 @@
+---
+import Section from "@/components/cv/Section.astro";
+import Heading from "@/components/cv/Heading.astro";
+import Subheading from "@/components/cv/Subheading.astro";
+
+import { education } from "@/data/cv.json";
+---
+
+<!-- "institution": "Universitat Oberta de Catalunya", "url":
+"https://www.uoc.edu/portal/es/index.html", "area": "Ingeniero de Software",
+"studyType": "Bachelor", "startDate": "2003-01-01", "endDate": "2009-01-01",
+"score": "4.0", "courses": ["DB1101 - Basic SQL"] -->
+<Section title="Education">
+  <ul class="flex flex-col gap-8">
+    {
+      education.map(({ institution, area, studyType, startDate, endDate }) => {
+        const startYear = new Date(startDate).getFullYear();
+        const endYear =
+          endDate != null ? new Date(endDate).getFullYear() : "Now";
+        const years = `${startYear} - ${endYear}`;
+
+        return (
+          <li>
+            <article>
+              <header class="flex justify-between items-start mb-1">
+                <div>
+                  <Heading>{institution}</Heading>
+                  <Subheading>{area}</Subheading>
+                </div>
+
+                <time class="text-sm text-primary-500">{years}</time>
+              </header>
+            </article>
+          </li>
+        );
+      })
+    }
+  </ul>
+</Section>

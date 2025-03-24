@@ -1,0 +1,120 @@
+---
+import { basics } from "@/data/cv.json";
+import Section from "@/components/cv/Section.astro";
+// import Mail from "@/icons/Mail.astro";
+// import Phone from "@/icons/Phone.astro";
+// import GitHub from "@/icons/Github.astro";
+// import LinkedIn from "@/icons/LinkedIn.astro";
+// import Site from "@/icons/Site.astro";
+// import X from "@/icons/X.astro";
+// import World from "@/icons/World.astro";
+import { Image } from "astro:assets";
+
+const { name, label, image, location, profiles, phone, email, url } = basics;
+const { city, region } = location;
+
+const SOCIAL_ICONS: Record<string, any> = {
+  // GitHub,
+  // LinkedIn,
+  // X,
+};
+
+const linkedInInfo = profiles.find(({ network }) => network === "LinkedIn");
+const linkedInUrl = linkedInInfo?.url;
+
+const githubInfo = profiles.find(({ network }) => network === "GitHub");
+const githubUrl = githubInfo?.url;
+
+const printInfo = [email, phone, linkedInUrl, githubUrl, url]
+  .filter(Boolean)
+  .join(" --- ");
+---
+
+<Section>
+  <div class="hidden print:block text-xs mb-4">
+    {printInfo}
+  </div>
+
+  <div class="flex gap-2 items-center justify-between">
+    <div>
+      <h1 class="text-2xl font-bold tracking-tight">{name}</h1>
+      <h2 class="text-primary-700 mt-2 max-w-md font-medium text-sm text-wrap">
+        {label}
+      </h2>
+      <span class="flex text-xs items-center gap-x-2 mt-2 text-primary-500">
+        <!-- <World width={16} height={16} /> -->
+        {city}, {region}
+      </span>
+      <footer class="mt-4 print:hidden">
+        <div class="flex gap-x-2 items-center">
+          {
+            email && (
+              <a
+                href={`mailto:${email}`}
+                title={`Message ${name} to ${email}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Email"
+              >
+                {/* <Mail /> */}
+              </a>
+            )
+          }
+          {
+            phone && (
+              <a
+                href={`tel:${phone}`}
+                title={`Call ${name} at ${phone}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Phone"
+              >
+                {/* <Phone /> */}
+              </a>
+            )
+          }
+          {
+            url && (
+              <a
+                href={`${url}`}
+                title={`Visit the site of ${name} at ${url}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Site"
+              >
+                {/* <Site /> */}
+              </a>
+            )
+          }
+          {
+            //   profiles.map(({ network, url, username }) => {
+            //     const Icon = SOCIAL_ICONS[network];
+            //     return (
+            //       <a
+            //         href={url}
+            //         title={`Visitar el perfil de ${name} en ${network}`}
+            //         target="_blank"
+            //         rel="noopener noreferrer"
+            //         aria-label={network}
+            //       >
+            //         <Icon />
+            //       </a>
+            //     );
+            //   })
+            // }
+          }
+        </div>
+      </footer>
+      <figure>
+        <Image
+          src={image}
+          alt={name}
+          height={1080}
+          width={1080}
+          loading="eager"
+          class="aspect-square rounded-md size-28 object-cover object-center shadow-lg"
+        />
+      </figure>
+    </div>
+  </div>
+</Section>

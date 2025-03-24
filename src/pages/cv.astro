@@ -1,0 +1,27 @@
+---
+import Layout from "@/layouts/CvLayout.astro";
+
+import Experience from "@/components/cv/Experience.astro";
+import About from "@/components/cv/About.astro";
+import Education from "@/components/cv/Education.astro";
+import Hero from "@/components/cv/Hero.astro";
+import Projects from "@/components/cv/Projects.astro";
+import Skills from "@/components/cv/Skills.astro";
+import KeyboardManager from "@/components/cv/KeyboardManager.astro";
+
+import { basics } from "@/data/cv.json";
+
+const { name, label } = basics;
+---
+
+<Layout title={`${name}'s CV — ${label}`}>
+  <main>
+    <Hero />
+    <About />
+    <Experience />
+    <Education />
+    <Projects />
+    <Skills />
+  </main>
+  <KeyboardManager />
+</Layout>
