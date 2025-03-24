@@ -1,5 +1,5 @@
 ---
-order: 4
+order: 6
 title: SourFace
 description: Site redesign & content overhaul for an eco-responsible personal care brand.
 year: 2024

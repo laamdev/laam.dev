@@ -20,7 +20,7 @@ const { mainImage, title, year } = data;
         width={1800}
         height={1125}
         transition:name={`project-${id}`}
-        class="rounded bg-gradient-to-b text-foreground-muted from-transparent to-zinc-800 text-center flex items-center justify-center w-full h-auto shadow-lg transition-shadow duration-300 ease-out group-hover:shadow-xl"
+        class="rounded bg-gradient-to-b from-transparent to-zinc-800 text-center flex items-center justify-center w-full h-auto shadow-lg transition-shadow duration-300 ease-out group-hover:shadow-xl"
       />
     </div>
   </div>
@@ -31,6 +31,6 @@ const { mainImage, title, year } = data;
     <h2 class="font-serif text-lg font-medium">
       {title}
     </h2>
-    <p class="text-foreground-muted">{year}</p>
+    <p class="opacity-50">{year}</p>
   </div>
 </a>

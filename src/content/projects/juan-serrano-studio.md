@@ -1,10 +1,10 @@
 ---
-order: 9
-title: GP Rivals
-description: xxx
-year: 2024
-mainImage: ../../assets/work/gp-rivals/main.webp
-category: Marketing
+order: 3
+title: Juan Serrano Studio
+description: A bespoke portfolio website showcasing the artisanal furniture creations of Juan Serrano, a Madrid-based craftsman. The site features a minimalist design that emphasizes the beauty of his handcrafted pieces through high-quality imagery and thoughtful typography, while offering seamless navigation and responsive viewing across all devices.
+year: 2022
+mainImage: ../../assets/work/juan-serrano-studio/main.webp
+category: Portfolio
 codeUrl: https://github.com/laamdev/gp-rivals
 siteUrl: https://gp-rivals.vercel.app
 services: ["End-to-End Development"]

@@ -1,0 +1,42 @@
+---
+import { getCollection, render } from "astro:content";
+
+import Layout from "@/layouts/Layout.astro";
+
+export async function getStaticPaths() {
+  const snippets = await getCollection("snippets");
+
+  return snippets.map((snippet) => ({
+    params: { id: snippet.id },
+    props: {
+      snippet,
+    },
+  }));
+}
+
+const { snippet } = Astro.props;
+
+const { data } = snippet;
+const { title, description } = data;
+
+const { Content } = await render(snippet);
+
+export const prerender = true;
+---
+
+<Layout title={title} description={description}>
+  <article
+    class="prose prose-headings:font-serif prose-h1:uppercase prose-lg max-w-3xl mx-auto prose-invert"
+  >
+    <div class="mt-24">
+      <h1>
+        {title}
+      </h1>
+      <p class="text-zinc-400 text-xl -mt-6 font-medium">{description}</p>
+    </div>
+
+    <div class="mt-24">
+      <Content />
+    </div>
+  </article>
+</Layout>

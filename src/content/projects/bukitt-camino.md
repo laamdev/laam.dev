@@ -1,8 +1,9 @@
 ---
-order: 6
+order: 5
 title: Bukitt Camino
 description: Site redesign & content overhaul for an eco-responsible personal care brand.
-year: 2023
+year: 2022
+role: In-house Main Dev
 client: Bluefin Aviation Services
 mainImage: ../../assets/work/bukitt-camino/main.webp
 category: Marketing

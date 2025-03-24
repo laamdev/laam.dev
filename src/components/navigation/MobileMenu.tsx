@@ -27,21 +27,21 @@ export const MobileMenu = () => {
           <a
             href="/#work"
             onClick={() => setOpen(false)}
-            className="text-xl font-serif uppercase text-foreground-muted transition-colors duration-300 ease-out hover:text-white tracking-wider font-medium px-4 py-2 hover:bg-background-muted rounded-md"
+            className="text-xl font-serif uppercase opacity-50 transition-opacity duration-300 ease-out hover:opacity-100 tracking-wider font-medium px-4 py-2 hover:bg-background-muted rounded-md"
           >
             Work
           </a>
           <a
             href="/services"
             onClick={() => setOpen(false)}
-            className="text-xl font-serif uppercase text-foreground-muted transition-colors duration-300 ease-out hover:text-white tracking-wider font-medium px-4 py-2 hover:bg-background-muted rounded-md"
+            className="text-xl font-serif uppercase opacity-50 transition-opacity duration-300 ease-out hover:opacity-100 tracking-wider font-medium px-4 py-2 hover:bg-background-muted rounded-md"
           >
             Services
           </a>
           <a
             href="/technologies"
             onClick={() => setOpen(false)}
-            className="text-xl font-serif uppercase tracking-wider text-foreground-muted transition-colors duration-300 ease-out hover:text-white font-medium px-4 py-2 hover:bg-background-muted rounded-md"
+            className="text-xl font-serif uppercase tracking-wider opacity-50 transition-opacity duration-300 ease-out hover:opacity-100 font-medium px-4 py-2 hover:bg-background-muted rounded-md"
           >
             Technologies
           </a>

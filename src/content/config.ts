@@ -20,6 +20,16 @@ export const projects = defineCollection({
     }),
 });
 
+export const snippets = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/snippets" }),
+  schema: ({ image }) =>
+    z.object({
+      title: z.string(),
+      description: z.string(),
+      date: z.date(),
+    }),
+});
+
 export const technologies = defineCollection({
   loader: file("src/data/technologies.json"),
   schema: ({ image }) =>
@@ -81,5 +91,6 @@ export const collections = {
   technologies,
   clients,
   services,
+  snippets,
   // // countries,
 };

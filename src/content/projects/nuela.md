@@ -1,10 +1,10 @@
 ---
-order: 12
+order: 13
 title: Nuela
 description: Site redesign & content overhaul for an eco-responsible personal care brand.
 year: 2024
 client: Nuela
-role: in-house
+role: In-house Mid-Senior Dev
 mainImage: ../../assets/work/nuela/main.webp
 category: Marketing
 codeUrl: https://github.com/bluefinaviation/bluefin-aviation-website

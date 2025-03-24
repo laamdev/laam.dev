@@ -6,8 +6,7 @@ import Layout from "@/layouts/Layout.astro";
 import ServiceBadge from "@/components/shared/ServiceBadge.astro";
 import ProjectDetail from "@/components/project/ProjectDetail.astro";
 import { buttonVariants } from "@/components/ui/button";
-import PageTitle from "@/components/shared/PageTitle.astro";
-import PageDescription from "@/components/shared/PageDescription.astro";
+import PageHeader from "@/components/shared/PageHeader.astro";
 
 import { cn } from "@/lib/utils";
 
@@ -41,14 +40,10 @@ const { Content } = await render(project);
 export const prerender = true;
 ---
 
-<Layout title={`${title}`}>
-  <div class="mt-24 text-center flex flex-col gap-y-6 items-center">
-    <PageTitle title={title} />
-    <PageDescription description={description} />
-  </div>
-
+<Layout title={title} description={description}>
+  <PageHeader title={title} description={description} />
   <div
-    class="grid p-4 md:p-6 mt-8 md:mt-12 mb-12 md:mb-24 rounded-lg grid-cols-1 bg-background-muted sm:grid-cols-2 lg:grid-cols-4 gap-6"
+    class="grid p-4 md:p-6 mt-8 md:mt-12 mb-12 md:mb-24 rounded grid-cols-1 bg-background-muted sm:grid-cols-2 lg:grid-cols-4 gap-6"
   >
     <ProjectDetail label="Client">
       {client ?? "Personal"}
@@ -66,20 +61,22 @@ export const prerender = true;
           target="_blank"
           class={cn(
             buttonVariants({ variant: "default", size: "sm" }),
-            "w-full sm:w-auto"
+            "w-full sm:w-auto",
+            !siteUrl && "opacity-50 cursor-not-allowed pointer-events-none"
           )}
         >
-          Visit Website
+          {siteUrl ? "Visit Site" : "In Progress"}
         </a>
         <a
           href={codeUrl}
           target="_blank"
           class={cn(
             buttonVariants({ variant: "outline", size: "sm" }),
-            "w-full sm:w-auto"
+            "w-full sm:w-auto",
+            !codeUrl && "opacity-50 cursor-not-allowed pointer-events-none"
           )}
         >
-          View Repo
+          {codeUrl ? "View Repo" : "Private Repo"}
         </a>
       </div>
     </ProjectDetail>
@@ -91,7 +88,7 @@ export const prerender = true;
     width={1920}
     height={1080}
     transition:name={`project-${id}`}
-    class="w-full h-auto rounded-lg"
+    class="w-full h-auto rounded"
   />
 
   <div class="grid grid-cols-1 sm:grid-cols-5 gap-24 pt-24">

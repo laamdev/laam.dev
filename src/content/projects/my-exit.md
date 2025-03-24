@@ -1,5 +1,5 @@
 ---
-order: 7
+order: 8
 title: My Exit
 description: Site redesign & content overhaul for an eco-responsible personal care brand.
 year: 2024

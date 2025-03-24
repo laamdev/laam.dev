@@ -3,6 +3,7 @@ order: 2
 title: Bluefin Aviation
 description: Legacy code migration, visual redesign, and Headless CMS integration for the marketing site of a Miami-based private aviation company.
 year: 2025
+role: Freelance
 client: Bluefin Aviation Services
 mainImage: "../../assets/work/bluefin-aviation/main.webp"
 category: Marketing

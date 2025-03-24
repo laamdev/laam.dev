@@ -1,12 +1,12 @@
 ---
 import { getCollection } from "astro:content";
+
+import Bullet from "@/assets/bullet.svg";
 import SERVICES_CATEGORIES from "@/data/services-categories.json";
 
 import Layout from "@/layouts/Layout.astro";
 import SectionHeading from "@/components/shared/SectionHeading.astro";
-import Bullet from "@/assets/bullet.svg";
 import PageTitle from "@/components/shared/PageTitle.astro";
-import PageDescription from "@/components/shared/PageDescription.astro";
 
 const services = await getCollection("services");
 
@@ -23,15 +23,11 @@ const groupedServices = services.reduce(
 );
 ---
 
-<Layout title="Services">
-  <div
-    class="mt-12 md:mt-24 text-center flex flex-col gap-y-4 md:gap-y-6 items-center"
-  >
-    <PageTitle title="Services" />
-    <PageDescription
-      description="I offer a range of services to help you achieve your goals. Whether you need a website, a logo, or a marketing campaign, I can help."
-    />
-  </div>
+<Layout
+  title="Services"
+  description="Building modern, high-performance web experiences with Next.js & Tailwind CSS— from sleek UI/UX to powerful backends."
+>
+  <PageTitle title="Services" />
 
   <div class="flex mt-12 md:mt-24 flex-col gap-12 md:gap-24">
     {
@@ -44,9 +40,9 @@ const groupedServices = services.reduce(
           >
             <div class="col-span-1 md:col-span-2">
               <SectionHeading title={category.name} />
-              <p class="text-muted-foreground mt-4">{category.description}</p>
+              <p class="opacity-50 mt-4">{category.description}</p>
             </div>
-            <ul class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 col-span-1 md:col-span-3 bg-background-muted rounded-lg p-6 md:p-12">
+            <ul class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 col-span-1 md:col-span-3 bg-background-muted rounded p-6 md:p-12">
               {categoryServices.map((service) => (
                 <li class="flex items-center gap-x-1">
                   <Bullet class="text-accent" />

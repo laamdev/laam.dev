@@ -1,0 +1,20 @@
+---
+import { getCollection } from "astro:content";
+
+import Layout from "@/layouts/Layout.astro";
+import SnippetCard from "@/components/snippets/SnippetCard.astro";
+import PageTitle from "@/components/shared/PageTitle.astro";
+
+const snippets = await getCollection("snippets");
+---
+
+<Layout
+  title="Snippets"
+  description="Short lessons, creative solutions, and insights from my web development journey."
+>
+  <PageTitle title="Snippets" />
+
+  <section class="gap-y-12 mt-24 max-w-5xl flex flex-col">
+    {snippets.map((snippet) => <SnippetCard snippet={snippet} />)}
+  </section>
+</Layout>

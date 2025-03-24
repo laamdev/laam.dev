@@ -1,0 +1,25 @@
+---
+const { snippet } = Astro.props;
+
+const { data, id } = snippet;
+
+const { title, description, date } = data;
+
+const formattedDate = date.toLocaleDateString("en-US", {
+  month: "2-digit",
+  year: "numeric",
+});
+---
+
+<a
+  href={`/snippets/${snippet.id}`}
+  class="bg-background-muted rounded shadow-sm border border-border p-6 grid grid-cols-7 gap-x-12"
+>
+  <div class="col-span-6 flex flex-col gap-y-3">
+    <h2 class="text-2xl font-serif font-bold">{title}</h2>
+    <p class="text-base text-zinc-400">{description}</p>
+  </div>
+  <p class="text-sm text-zinc-400 col-span-1 text-right tracking-wider">
+    {formattedDate}
+  </p>
+</a>

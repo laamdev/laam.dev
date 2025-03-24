@@ -10,7 +10,7 @@ import SERVICES_CATEGORIES from "@/data/services-categories.json";
       SERVICES_CATEGORIES.map((category) => (
         <a
           href={`/services#${category.id}`}
-          class="block p-6 rounded-lg border bg-background hover:bg-background-muted transition-colors"
+          class="block p-6 rounded border bg-background hover:bg-background-muted transition-colors"
         >
           <h3 class="font-serif text-xl font-medium mb-2">{category.name}</h3>
           <p class="text-sm text-muted-foreground">{category.description}</p>

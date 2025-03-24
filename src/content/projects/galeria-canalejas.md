@@ -1,9 +1,9 @@
 ---
-order: 9
-title: GP Rivals
+order: 11
+title: Galería Canalejas
 description: xxx
 year: 2024
-mainImage: ../../assets/work/gp-rivals/main.webp
+mainImage: ../../assets/work/galeria-canalejas/main.webp
 category: Marketing
 codeUrl: https://github.com/laamdev/gp-rivals
 siteUrl: https://gp-rivals.vercel.app

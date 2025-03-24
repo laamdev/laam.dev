@@ -50,6 +50,46 @@
     "categoryId": "design"
   },
   {
+    "id": "19",
+    "name": "Brand Strategy",
+    "categoryId": "design"
+  },
+  {
+    "id": "20",
+    "name": "Visual Identity",
+    "categoryId": "design"
+  },
+  {
+    "id": "21",
+    "name": "Infographic",
+    "categoryId": "design"
+  },
+  {
+    "id": "22",
+    "name": "UX Research",
+    "categoryId": "design"
+  },
+  {
+    "id": "23",
+    "name": "UX Testing",
+    "categoryId": "design"
+  },
+  {
+    "id": "24",
+    "name": "UI Design",
+    "categoryId": "design"
+  },
+  {
+    "id": "25",
+    "name": "Service Design",
+    "categoryId": "design"
+  },
+  {
+    "id": "26",
+    "name": "Design Systems",
+    "categoryId": "design"
+  },
+  {
     "id": "11",
     "name": "Technical SEO",
     "categoryId": "growth"
@@ -82,6 +122,11 @@
   {
     "id": "17",
     "name": "Continuous Maintenance",
+    "categoryId": "growth"
+  },
+  {
+    "id": "18",
+    "name": "UX Consulting",
     "categoryId": "growth"
   }
 ]
