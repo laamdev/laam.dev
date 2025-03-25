@@ -1,7 +1,7 @@
 ---
 order: 7
 title: Four Favourites
-description: xxx.
+description: Create a collection of Letterboxd's Four Favorites celebrity lists and allow users to create their own
 year: 2024
 role: Personal
 mainImage: ../../assets/work/four-favourites/main.webp

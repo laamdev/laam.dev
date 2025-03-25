@@ -6,11 +6,10 @@ import Layout from "@/layouts/Layout.astro";
 import ServiceBadge from "@/components/shared/ServiceBadge.astro";
 import ProjectDetail from "@/components/project/ProjectDetail.astro";
 import PageTitle from "@/components/shared/PageTitle.astro";
-import PageDescription from "@/components/shared/PageDescription.astro";
 import { buttonVariants } from "@/components/ui/button";
+import TechnologyCard from "@/components/project/TechnologyCard.astro";
 
 import { cn } from "@/lib/utils";
-import PageHeader from "@/components/shared/PageHeader.astro";
 
 export async function getStaticPaths() {
   const projects = await getCollection("projects");
@@ -36,11 +35,14 @@ const {
   services,
   codeUrl,
   category,
+  technologies,
 } = data;
 
 const { Content } = await render(project);
 
 export const prerender = true;
+
+console.log(JSON.stringify(project.data.technologies, null, 2));
 ---
 
 <Layout title={title} description={description}>
@@ -113,12 +115,27 @@ export const prerender = true;
   </div>
 
   <div class="grid grid-cols-1 sm:grid-cols-5 gap-24 pt-12">
-    <div class="col-span-2">
-      <p class="text-xs font-medium tracking-widest uppercase opacity-50">
-        Scope
-      </p>
-      <div class="flex flex-wrap gap-2 mt-6">
-        {services.map((service) => <ServiceBadge service={service} />)}
+    <div class="col-span-2 flex flex-col gap-y-12">
+      <div>
+        <p class="text-xs font-medium tracking-widest uppercase opacity-50">
+          Scope
+        </p>
+        <div class="flex flex-wrap gap-2 mt-6">
+          {services.map((service) => <ServiceBadge service={service} />)}
+        </div>
+      </div>
+
+      <div>
+        <p class="text-xs font-medium tracking-widest uppercase opacity-50">
+          Tech Stack
+        </p>
+        <div class="flex flex-wrap gap-2 mt-6">
+          {
+            technologies.map((technology) => (
+              <ServiceBadge service={technology} />
+            ))
+          }
+        </div>
       </div>
     </div>
     <div class="prose sm:prose-lg prose-invert col-span-3 max-w-5xl">

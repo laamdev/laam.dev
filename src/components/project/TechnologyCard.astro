@@ -1,0 +1,24 @@
+---
+import { Image } from "astro:assets";
+
+interface Props {
+  name: string;
+  description: string;
+  logo: ImageMetadata;
+}
+
+const { name, description, logo } = Astro.props;
+---
+
+<div class="flex flex-col items-center p-6 rounded-lg bg-background-muted">
+  <Image
+    src={logo}
+    alt={`${name} logo`}
+    width={48}
+    height={48}
+    class="w-12 h-12 mb-4"
+  />
+  <h4 class="text-lg font-medium mb-2">{name}</h4>
+  <p class="text-sm text-muted-foreground text-center">{description}</p>
+</div>
+

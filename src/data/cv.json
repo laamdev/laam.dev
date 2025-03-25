@@ -1,15 +1,13 @@
 {
   "basics": {
     "name": "Luis Alejandro Anaya Marin",
-    "label": "Mid-level Fullstack developer specialized in Next.js, Tailwind CSS and Sanity CMS.",
+    "label": "Full Stack Web Developer (5+ Years Experience)",
     "image": "/src/assets/cv/profile.webp",
-    "email": "brothersailorwebdev@gmail.com",
-    "phone": "+34 689584226",
+    "email": "luis@laam.dev",
+    "phone": "+34 689 58 42 26",
     "url": "https://laam.dev",
-    "summary": "Full stack developer with +4 years of experience specializing in Next.js, Tailwind CSS, and Sanity CMS. Working remotely from Madrid both in-house and as a freelancer with clients across the US, UK, and Spain, I deliver end-to-end web solutions including legacy migrations, visual redesigns, and CMS implementations. Proven track record of improving client metrics through performance optimizations and SEO enhancements. Experienced in both solo and team environments.",
+    "summary": "Specializing in full-stack development and modern web solutions, I build high-performance applications using Next.js, TypeScript, Tailwind CSS, Sanity CMS, and PostgreSQL. Proficient in React Server Components, technical SEO optimization, and scalable architectures, consistently achieving 90+ Lighthouse scores. With five years of experience across in-house, freelance, and external consultancy roles, I've delivered e-commerce platforms, SaaS dashboards, and CMS-driven websites, focusing on maintainability and exceptional user experience.",
     "location": {
-      "address": "Calle Luis de Salazar, 9, 4J",
-      "postalCode": "28002",
       "city": "Madrid",
       "countryCode": "ES",
       "region": "Spain"
@@ -29,109 +27,75 @@
   },
   "work": [
     {
-      "name": "Nuela",
-      "position": "Mid-Senior Full-stack Developer",
-      "url": "https://www.nuela.app/",
-      "startDate": "2024-03-01",
+      "name": "Full Stack Consulting",
+      "position": "Digital Transformation External Consultant",
+      "url": "https://fullstackconsulting.co.uk",
+      "startDate": "2021-06-01",
       "endDate": null,
-      "summary": "Led development of an education SaaS platform for schedule management and teacher substitution. Built full-stack solution using Next.js, Tailwind CSS, and Supabase. Implemented responsive design and user-friendly interfaces through close collaboration with design team.",
-      "highlights": ["Mid-Senior developer"]
-    },
-    {
-      "name": "LGR (UK) LTD",
-      "position": "Freelance Consultant",
-      "url": "https://www.lgruk.co.uk",
-      "startDate": "2021-01-01",
-      "endDate": null,
-      "summary": "Guided SMEs through digital transformation projects. Executed legacy codebase migrations, modernized design systems, and implemented CMS solutions. Improved client search rankings through performance optimization and SEO enhancements.",
-      "highlights": ["Main Next.js consultant"]
-    },
-    {
-      "name": "Bukitt",
-      "position": "In-house Developer & Content Manager",
-      "url": "https://www.bukitt.com",
-      "startDate": "2021-03-01",
-      "endDate": "2023-03-01",
-      "summary": "Built and maintained two marketing websites for luxury travel agencies. Implemented CMS for non-technical users, automated email systems, and managed SEO optimization. Led visual design and branding initiatives across web and social media.",
-      "highlights": ["Head of development team"]
+      "summary": "Led legacy code modernization, UI/UX overhaul, and end-to-end development of web applications. Developed custom solutions focusing on maintainability, security, and performance. Conducted SEO audits and implemented optimizations, achieving Lighthouse scores over 95 and a 30% improvement in Google search rankings.",
+      "highlights": [
+        "Legacy modernization",
+        "Technical SEO",
+        "Custom solutions"
+      ]
     },
     {
       "name": "LAAM.DEV",
-      "position": "Freelance Next.js Developer",
-      "url": "https://www.laam.dev",
-      "startDate": "2020-01-01",
+      "position": "Freelance Full Stack Developer",
+      "url": "https://laam.dev",
+      "startDate": "2020-06-01",
       "endDate": null,
-      "summary": "Developed diverse web solutions including marketing sites, e-commerce platforms, and SaaS applications. Specialized in Next.js and Astro implementations with modern features like Server Actions and RSC. Maintained portfolio of 10+ active client projects.",
-      "highlights": ["Started the company"]
-    }
-  ],
-  "volunteer": [
+      "summary": "Built high-performance websites, including landing pages, applications, and e-commerce stores. Developed decoupled APIs for seamless content delivery across platforms. Executed comprehensive strategies to improve visibility and engagement. Leveraged modern tech stack to deliver cutting-edge solutions, achieving 30% average increase in organic traffic.",
+      "highlights": [
+        "Custom web solutions",
+        "Content management",
+        "Marketing strategy"
+      ]
+    },
     {
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": ["Awarded 'Volunteer of the Month'"]
+      "name": "Bukitt",
+      "position": "Full Stack Developer & Digital Strategist",
+      "url": "https://bukitt.com",
+      "startDate": "2021-01-01",
+      "endDate": "2023-03-01",
+      "summary": "Delivered luxury travel agency's website with end-to-end design and development. Implemented user-friendly CMS for non-technical staff. Launched specialized website for Camino de Santiago pilgrimages. Executed branding and content strategy, achieving top Google ranking.",
+      "highlights": [
+        "Website development",
+        "CMS implementation",
+        "SEO optimization"
+      ]
     }
   ],
+  "volunteer": [],
   "education": [
     {
       "institution": "Ironhack Madrid",
       "url": "https://www.ironhack.com/madrid",
-      "area": "Web Development Bootcamp",
+      "area": "Full Stack Web Development Bootcamp",
       "studyType": "Bootcamp",
-      "startDate": "2019-04-01",
-      "endDate": "2020-08-01",
-      "courses": ["Full Stack Web Development", "MERN Stack", "JavaScript"]
+      "startDate": "2019-01-01",
+      "endDate": "2020-01-01"
     },
     {
       "institution": "University of York",
-      "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "MA in Postproduction and Sound Design",
+      "url": "https://www.york.ac.uk",
+      "area": "M.A. in Post Production and Sound Design",
       "studyType": "Master",
       "startDate": "2015-01-01",
-      "endDate": "2017-01-01",
-      "score": "4.0",
-      "courses": ["DB1101 - Basic SQL"]
+      "endDate": "2017-01-01"
     },
     {
-      "institution": "Universidad Carlos III",
-      "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "BA in Media Studies and Film (bilingual)",
+      "institution": "Universidad Carlos III de Madrid",
+      "url": "https://www.uc3m.es",
+      "area": "B.A. in Media Studies and Film",
       "studyType": "Bachelor",
-      "startDate": "2010-07-01",
-      "endDate": "2014-07-01",
-      "score": "4.0",
-      "courses": ["DB1101 - Basic SQL"]
+      "startDate": "2010-01-01",
+      "endDate": "2014-01-01"
     }
   ],
-  "awards": [
-    {
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
-    }
-  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
   "skills": [
     {
       "name": "Next.js",
@@ -143,7 +107,18 @@
         "SSR",
         "Server Actions",
         "Static Generation"
-      ]
+      ],
+      "category": "Frameworks",
+      "isCore": true,
+      "order": 1
+    },
+    {
+      "name": "TypeScript",
+      "level": "Advanced",
+      "keywords": ["Web Development", "Frontend", "Backend", "Type Safety"],
+      "category": "Languages",
+      "isCore": true,
+      "order": 1
     },
     {
       "name": "Tailwind CSS",
@@ -153,17 +128,10 @@
         "Frontend",
         "CSS Framework",
         "Responsive Design"
-      ]
-    },
-    {
-      "name": "TypeScript",
-      "level": "Advanced",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "JavaScript Superset"
-      ]
+      ],
+      "category": "Styling",
+      "isCore": true,
+      "order": 1
     },
     {
       "name": "Sanity CMS",
@@ -172,70 +140,19 @@
         "Content Management",
         "Headless CMS",
         "GROQ",
-        "Content Modeling",
-        "API Integration"
-      ]
-    },
-    {
-      "name": "shadcn/UI",
-      "level": "Advanced",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "CSS Framework",
-        "Component Library",
-        "Responsive Design"
-      ]
+        "Content Modeling"
+      ],
+      "category": "CMS",
+      "isCore": true,
+      "order": 1
     },
     {
       "name": "PostgreSQL",
       "level": "Advanced",
-      "keywords": ["Relational Database", "Backend"]
-    },
-    {
-      "name": "Drizzle ORM",
-      "level": "Advanced",
-      "keywords": ["ORM", "Database", "Backend"]
-    },
-    {
-      "name": "Zustand",
-      "level": "Advanced",
-      "keywords": ["Global State Management"]
-    },
-    {
-      "name": "Motion",
-      "keywords": ["Animations", "Frontend", "CSS", "Creative Design"]
-    },
-    {
-      "name": "Git",
-      "keywords": ["Version control", "Dev-ops"]
-    },
-    {
-      "name": "Vercel",
-      "keywords": ["Deployment", "Dev-ops", "Cloud"]
-    },
-    {
-      "name": "Astro",
-      "level": "Advanced",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Agnostic Framework",
-        "React",
-        "Sveltekit",
-        "SSR",
-        "Static Generation"
-      ]
-    },
-    {
-      "name": "Stripe",
-      "level": "Advanced",
-      "keywords": ["Payment Processing", "E-commerce", "API Integration"]
-    },
-    {
-      "name": "Supabase",
-      "level": "Advanced",
-      "keywords": ["Backend", "Database", "Authentication", "API"]
+      "keywords": ["Database", "SQL", "Data Modeling", "Performance"],
+      "category": "Databases",
+      "isCore": true,
+      "order": 1
     }
   ],
   "languages": [
@@ -245,40 +162,27 @@
     },
     {
       "language": "English",
-      "fluency": "Proficiency"
+      "fluency": "Proficient (IELTS Band 8)"
     }
   ],
   "projects": [
     {
-      "name": "Nuela",
+      "name": "PTR Associates",
       "isActive": true,
-      "description": "Education SaaS platform for schedule management and teacher substitution. Built with Next.js, Tailwind CSS, and Supabase.",
+      "description": "Digital transformation consultancy website with modern tech stack and optimized performance.",
       "highlights": [
         "Next.js",
         "Tailwind CSS",
-        "Supabase",
         "TypeScript",
-        "shadcn/UI"
-      ],
-      "url": "https://www.nuela.app/"
-    },
-    {
-      "name": "Sourface",
-      "isActive": true,
-      "description": "E-commerce platform for digital beer shops with payment processing integration.",
-      "highlights": [
-        "Next.js",
-        "Tailwind CSS",
-        "Stripe",
         "Sanity CMS",
-        "Zustand"
+        "Motion"
       ],
-      "url": "https://sourface.vercel.app/"
+      "url": "https://www.ptrassociates.co.uk"
     },
     {
       "name": "BlueFin Aviation",
       "isActive": true,
-      "description": "Marketing platform for Miami aviation company. Executed legacy migration and complete UI/UX overhaul with modern tech stack.",
+      "description": "Marketing platform for Miami aviation company with modern tech stack.",
       "highlights": [
         "Next.js",
         "Tailwind CSS",
@@ -289,24 +193,39 @@
       "url": "https://www.bluefinaviation.com"
     },
     {
-      "name": "GP Rivals",
+      "name": "Buy a Rug",
       "isActive": true,
-      "description": "Web application for exploring Formula 1 temmate rivalries, comparing race performances and visualizing season-long statistics.",
+      "description": "E-commerce platform for luxury rugs with advanced filtering.",
       "highlights": [
         "Next.js",
         "Tailwind CSS",
+        "Stripe",
         "Sanity CMS",
-        "shadcn/UI",
-        "Sendgrid"
+        "TypeScript"
       ],
-      "url": "https://gprivals.vercel.app"
+      "url": "https://buyarug.com"
+    }
+  ],
+  "services": [
+    {
+      "name": "Frontend Development",
+      "category": "tech",
+      "description": "Building modern, responsive web applications using Next.js and other cutting-edge frameworks."
     },
     {
-      "name": "Cristina Galan",
-      "isActive": true,
-      "description": "Artist portfolio with custom animations and CMS integration. Focus on visual presentation and content management.",
-      "highlights": ["Next.js", "Hygraph CMS", "Tailwind CSS", "Motion"],
-      "url": "https://www.cristinagalan.com"
+      "name": "Backend Development",
+      "category": "tech",
+      "description": "Creating robust server-side solutions with Node.js, databases, and API integrations."
+    },
+    {
+      "name": "Full Stack Development",
+      "category": "tech",
+      "description": "End-to-end web application development from database design to user interface."
+    },
+    {
+      "name": "Technical SEO",
+      "category": "growth",
+      "description": "Optimization of web applications for search engines and performance."
     }
   ]
 }

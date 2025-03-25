@@ -47,6 +47,7 @@
   --font-sans: var(--font-lausanne), sans-serif;
   --font-serif: var(--font-machina), serif;
   --font-mono: var(--font-apercu-mono), monospace;
+  --font-cv: var(--font-fira-code), monospace;
   --color-background: var(--background);
   --color-background-muted: var(--background-muted);
   --color-foreground: var(--foreground);
