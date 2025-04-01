@@ -7,7 +7,6 @@ import ServiceBadge from "@/components/shared/ServiceBadge.astro";
 import ProjectDetail from "@/components/project/ProjectDetail.astro";
 import PageTitle from "@/components/shared/PageTitle.astro";
 import { buttonVariants } from "@/components/ui/button";
-import TechnologyCard from "@/components/project/TechnologyCard.astro";
 
 import { cn } from "@/lib/utils";
 
@@ -41,8 +40,6 @@ const {
 const { Content } = await render(project);
 
 export const prerender = true;
-
-console.log(JSON.stringify(project.data.technologies, null, 2));
 ---
 
 <Layout title={title} description={description}>
@@ -96,7 +93,7 @@ console.log(JSON.stringify(project.data.technologies, null, 2));
     width={1920}
     height={1080}
     transition:name={`project-${id}`}
-    class="w-full h-auto rounded bg-gradient-to-b from-transparent to-zinc-800"
+    class="w-full h-auto rounded bg-gradient-to-b from-black to-transparent"
   />
 
   <div class="my-24 text-center justify-center">
