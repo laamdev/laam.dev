@@ -16,7 +16,7 @@
   },
   {
     "id": "4",
-    "name": "Headless CMS Integration",
+    "name": "End-to-End Development",
     "categoryId": "tech"
   },
   {
@@ -26,37 +26,77 @@
   },
   {
     "id": "6",
-    "name": "Headless eCommerce",
+    "name": "Headless E-Commerce",
     "categoryId": "tech"
   },
   {
     "id": "7",
-    "name": "Legacy Code Migration",
+    "name": "Headless CMS Integration",
     "categoryId": "tech"
   },
   {
     "id": "8",
-    "name": "Replatforming & Data Migration",
+    "name": "Legacy Code Migration",
     "categoryId": "tech"
   },
   {
     "id": "9",
+    "name": "Replatforming & Data Migration",
+    "categoryId": "tech"
+  },
+  {
+    "id": "10",
+    "name": "Data Replatforming",
+    "categoryId": "tech"
+  },
+  {
+    "id": "11",
     "name": "UI/UX Design",
     "categoryId": "design"
   },
   {
-    "id": "10",
+    "id": "12",
+    "name": "UI Design",
+    "categoryId": "design"
+  },
+  {
+    "id": "13",
+    "name": "UX Research",
+    "categoryId": "design"
+  },
+  {
+    "id": "14",
+    "name": "UX Testing",
+    "categoryId": "design"
+  },
+  {
+    "id": "15",
     "name": "Design System",
     "categoryId": "design"
   },
   {
-    "id": "19",
+    "id": "16",
+    "name": "Design Systems",
+    "categoryId": "design"
+  },
+  {
+    "id": "17",
+    "name": "Service Design",
+    "categoryId": "design"
+  },
+  {
+    "id": "18",
     "name": "Brand Strategy",
     "categoryId": "design"
   },
   {
-    "id": "20",
+    "id": "19",
     "name": "Visual Identity",
+    "categoryId": "design"
+  },
+  {
+    "id": "20",
+    "name": "Visual Redesign",
     "categoryId": "design"
   },
   {
@@ -66,66 +106,41 @@
   },
   {
     "id": "22",
-    "name": "UX Research",
-    "categoryId": "design"
-  },
-  {
-    "id": "23",
-    "name": "UX Testing",
-    "categoryId": "design"
-  },
-  {
-    "id": "24",
-    "name": "UI Design",
-    "categoryId": "design"
-  },
-  {
-    "id": "25",
-    "name": "Service Design",
-    "categoryId": "design"
-  },
-  {
-    "id": "26",
-    "name": "Design Systems",
-    "categoryId": "design"
-  },
-  {
-    "id": "11",
     "name": "Technical SEO",
     "categoryId": "growth"
   },
   {
-    "id": "12",
+    "id": "23",
     "name": "Website Optimisation",
     "categoryId": "growth"
   },
   {
-    "id": "13",
+    "id": "24",
     "name": "Payment Gateway Integration",
     "categoryId": "growth"
   },
   {
-    "id": "14",
-    "name": "Analytics",
+    "id": "25",
+    "name": "Web Analytics",
     "categoryId": "growth"
   },
   {
-    "id": "15",
+    "id": "26",
     "name": "Accessibility Audit",
     "categoryId": "growth"
   },
   {
-    "id": "16",
+    "id": "27",
     "name": "Email Marketing Automation",
     "categoryId": "growth"
   },
   {
-    "id": "17",
+    "id": "28",
     "name": "Continuous Maintenance",
     "categoryId": "growth"
   },
   {
-    "id": "18",
+    "id": "29",
     "name": "UX Consulting",
     "categoryId": "growth"
   }

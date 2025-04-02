@@ -1,9 +1,9 @@
 ---
 order: 2
 title: Bluefin Aviation
-description: Legacy code migration, visual redesign, and Headless CMS integration for the marketing site of a Miami-based private aviation company.
+description: Legacy code migration, visual redesign, and Headless CMS integration for the marketing site of a Miami-based private aviation company
 year: 2025
-role: Freelance
+role: Freelance Developer
 client: Bluefin Aviation Services
 mainImage: "../../assets/work/bluefin-aviation/main.webp"
 category: Corporate Marketing
@@ -14,13 +14,14 @@ services:
   [
     "Legacy Code Migration",
     "Visual Redesign",
-    "Full Stack Development",
     "Headless CMS Integration",
+    "Full Stack Development",
     "Technical SEO",
+    "Data Replatforming",
     "Email Marketing Automation",
-    "Analytics",
+    "Web Analytics",
   ]
-technologies: ["Next.js"]
+technologies: ["Next.js", "Tailwind CSS", "shadcn/ui", "Motion", "Sanity CMS"]
 ---
 
 ## Introduction

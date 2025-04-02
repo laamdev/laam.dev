@@ -1,12 +1,11 @@
 ---
 order: 8
 title: My Exit
-description: Site redesign & content overhaul for an eco-responsible personal care brand.
+description: Development of a marketing-focused website for My Exit, emphasizing clear messaging and strategic positioning to attract potential acquirers and facilitate successful business exits
 year: 2024
 client: Full Stack Consulting
 mainImage: ../../assets/work/my-exit/main.webp
 category: Corporate Marketing
-codeUrl: https://github.com/bluefinaviation/bluefin-aviation-website
 siteUrl: https://www.myexit.uk
 services: ["Legacy Code Migration", "Visual Redesign"]
 technologies: ["Next.js"]
@@ -14,66 +13,67 @@ technologies: ["Next.js"]
 
 ## Introduction
 
-MyExit, a company specializing in acquiring and growing small businesses, approached us to create a website that would effectively communicate their unique value proposition and attract business owners seeking an exit strategy. The goal was to design a clear, concise, and professional online presence that would differentiate MyExit from traditional brokers and competitors.
+My Exit is a UK-based firm specializing in acquiring and scaling small to medium-sized businesses with revenues between £2M and £10M. They offer two distinct pathways for business owners: immediate acquisition at market value or a future sale option at double the current valuation.
+
+---
 
 ## Challenge
 
-MyExit faced several challenges in establishing a strong online presence:
+Many small businesses struggle to achieve successful exits due to:
 
-1. **Unique Value Proposition**: Effectively communicating their two-pronged approach to business acquisition (immediate sale vs. future sale at double value).
-2. **Differentiation**: Standing out from traditional brokers and competitors with harsh terms.
-3. **Trust and Credibility**: Building trust and credibility with business owners considering selling their companies.
-4. **Clarity**: Simplifying complex financial concepts to make them easily understandable.
-5. **Lead Generation**: Designing a website that effectively captures leads from interested business owners.
+1.  **Low Transaction Success Rate**: 80% of companies with less than £10M turnover never sell.
+2.  **Aborted Transactions**: Owners waste time and money on unsuccessful deals.
+3.  **Misaligned Incentives**: Brokers and competitors may not prioritize the owner's legacy or employee protection.
+4.  **Valuation Maximization**: Ensuring the business is valued appropriately and its potential is fully realized.
+
+---
 
 ## Solution
 
-To address these challenges, we implemented a comprehensive digital strategy:
+My Exit provides two strategic solutions:
 
-### Visual Design
+1.  **Immediate Sale at Market Value**:
 
-We created a clean and professional design that reflects MyExit's expertise and trustworthiness. Key elements included:
+    - My Exit acquires 100% of the business at its current market value.
+    - A 6-12 month handover period is included for a smooth transition.
 
-- **Modern Aesthetics**: Use of contemporary design elements and a professional color palette.
-- **Clear Messaging**: Emphasis on clear, concise language to explain MyExit's unique offerings.
-- **Visual Hierarchy**: Strategic use of typography and layout to guide visitors through key information.
+2.  **Future Sale at Double the Value**:
+    - My Exit purchases a small stake in the business upfront.
+    - They secure an option to buy the remaining shares later at double the initial valuation.
+    - No handover is required post-sale, offering flexibility for the owner.
 
-### User Experience
+---
 
-Our design approach focused on providing an intuitive and engaging user experience:
+## Value Proposition
 
-- **Simplified Navigation**: Streamlined navigation to allow visitors to quickly find the information they need.
-- **Value Proposition Focus**: Clear presentation of MyExit's two exit options and their benefits.
-- **Credibility Building**: Showcasing MyExit's experience and expertise through testimonials and case studies.
-- **Comparison Charts**: Providing a visual comparison of MyExit's services versus traditional brokers and competitors.
+- **Alignment**: Incentives are aligned through shared equity and a commitment to growth.
+- **Growth**: My Exit works closely with the business and its team to drive growth and prepare for a future sale.
+- **Experience**: With 30 years of combined experience in venture capital and technology, My Exit's project leaders have a proven track record of building and transforming businesses.
+- **Legacy Protection**: Unlike competitors, My Exit protects the owner's legacy and offers employee protection.
 
-### Development
+---
 
-The website was developed using modern web technologies to ensure performance and scalability:
+## Ideal Businesses
 
-- **Responsive Design**: Ensured the site is fully responsive, providing an optimal viewing experience across all devices.
-- **Performance Optimization**: Implemented optimization techniques for fast loading times and a smooth user experience.
-- **Lead Capture**: Integrated a lead capture form to collect information from interested business owners.
+My Exit seeks businesses that demonstrate:
 
-## Implementation
+- **High Quality**: Strong fundamentals and potential for growth.
+- **Strong Team**: Capable people in place to implement change.
+- **Alignment**: The owner's commitment to driving change and growth.
+- **Cashflow**: Financial health to invest in necessary improvements.
 
-The project involved several key phases:
+---
 
-1. **Discovery**: Understanding MyExit's business model, target audience, and unique value proposition.
-2. **Design**: Creating wireframes, mockups, and prototypes to visualize the user experience.
-3. **Development**: Building the website using modern web technologies.
-4. **Content Creation**: Writing clear, concise, and engaging content to explain MyExit's services.
-5. **Testing and Launch**: Rigorous testing across devices and browsers before launching the site.
+## Why Choose My Exit?
 
-## Results
+- **Two Exit Routes**: Immediate or future sale options provide flexibility.
+- **Aligned Incentives**: Shared equity ensures My Exit is invested in the business's success.
+- **No Upfront Costs**: Reducing financial risk for the seller.
+- **Business Optimization**: Focus on maximizing valuation through strategic improvements.
+- **Legacy & Employee Protection**: Prioritizing the owner's wishes and employee well-being.
 
-The new MyExit website (https://www.myexit.uk/) has delivered significant results:
-
-- **Clear Value Proposition**: The site effectively communicates MyExit's unique approach to business acquisition.
-- **Improved User Engagement**: Visitors can now easily understand MyExit's services and their benefits, leading to increased engagement.
-- **Enhanced Credibility**: The professional design and clear messaging build trust with potential clients.
-- **Increased Lead Generation**: The lead capture form has generated a steady stream of inquiries from interested business owners.
+---
 
 ## Conclusion
 
-The MyExit website redesign project successfully transformed a complex business model into a clear, concise, and engaging online presence. By addressing the challenges of communicating a unique value proposition and building trust with potential clients, we have helped position MyExit as a leader in the business acquisition industry. The new website provides a solid foundation for MyExit's growth and success in the competitive market.
+My Exit offers a compelling solution for small business owners seeking an exit strategy. By providing two distinct pathways and aligning incentives, they aim to maximize business value while ensuring a smooth transition and protecting the owner's legacy.

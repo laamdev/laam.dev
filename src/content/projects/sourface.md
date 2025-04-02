@@ -1,11 +1,10 @@
 ---
 order: 6
 title: SourFace
-description: Site redesign & content overhaul for an eco-responsible personal care brand.
+description: Design and development of a Sanity and Stripe powered e-commerce site
 year: 2024
-client: Full Stack Consulting
 mainImage: ../../assets/work/sourface/main.webp
-category: eCommerce
+category: E-Commerce
 codeUrl: https://github.com/laamdev/sourface-ecommerce
 siteUrl: https://sourface.vercel.app
 services: ["Legacy Code Migration", "Visual Redesign"]

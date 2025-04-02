@@ -1,14 +1,22 @@
 ---
 order: 3
 title: Juan Serrano Studio
-description: A bespoke portfolio website showcasing the artisanal furniture creations of Juan Serrano, a Madrid-based craftsman. The site features a minimalist design that emphasizes the beauty of his handcrafted pieces through high-quality imagery and thoughtful typography, while offering seamless navigation and responsive viewing across all devices.
+description: A minimalist portfolio website for Madrid-based furniture craftsman Juan Serrano, featuring high-quality imagery and responsive design
 year: 2022
 mainImage: ../../assets/work/juan-serrano-studio/main.webp
+client: Juan Serrano
 category: Portfolio
-codeUrl: https://github.com/laamdev/gp-rivals
-siteUrl: https://gp-rivals.vercel.app
-services: ["End-to-End Development"]
-technologies: ["Next.js"]
+codeUrl: https://github.com/laamdev/juan-serrano-studio-website
+siteUrl: https://www.juanserrano.studio
+services:
+  [
+    "End-to-End Development",
+    "Brand Strategy",
+    "Visual Identity",
+    "Technical SEO",
+  ]
+technologies:
+  ["Next.js", "Tailwind CSS", "Hygraph CMS", "Headless CMS Integration"]
 ---
 
 ## Introduction

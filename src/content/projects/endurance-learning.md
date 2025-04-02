@@ -1,15 +1,15 @@
 ---
 order: 12
 title: Endurance Learning
-description: Provided external consultancy to enhance the UX of Endurance Learning's dashboard, optimizing usability and navigation for a more intuitive online education platform.
+description: UX consultancy to optimize dashboard usability and navigation for an online education platform
 year: 2022
 role: External Consultant
 client: Endurance Learning
 mainImage: ../../assets/work/endurance-learning/main.webp
 category: SaaS
 siteUrl: https://endurancelearning.com/
-services: ["UX Consulting"]
-technologies: ["Next.js"]
+services: ["UX Consulting", "Accessibility Audit"]
+technologies: ["Next.js", "Tailwind CSS"]
 ---
 
 ## Introduction

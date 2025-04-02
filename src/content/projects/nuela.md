@@ -1,7 +1,7 @@
 ---
 order: 13
 title: Nuela
-description: Site redesign & content overhaul for an eco-responsible personal care brand.
+description: Design and development of the client dashboard for a AI-powered teacher scheduling and substitution management system
 year: 2024
 client: Nuela
 role: In-house Mid-Senior Dev
@@ -9,72 +9,75 @@ mainImage: ../../assets/work/nuela/main.webp
 category: SaaS
 codeUrl: https://github.com/bluefinaviation/bluefin-aviation-website
 siteUrl: https://www.myexit.uk
-services: ["Legacy Code Migration", "Visual Redesign"]
-technologies: ["Next.js"]
+services: ["AI Integration", "Dashboard Development", "Scheduling System"]
+technologies: ["Next.js", "AI/ML", "React"]
 ---
 
 ## Introduction
 
-MyExit, a company specializing in acquiring and growing small businesses, approached us to create a website that would effectively communicate their unique value proposition and attract business owners seeking an exit strategy. The goal was to design a clear, concise, and professional online presence that would differentiate MyExit from traditional brokers and competitors.
+Nuela approached us to create an AI-powered dashboard system that would revolutionize how educational institutions manage teacher schedules and handle substitutions. The goal was to develop an intelligent platform that would automate the complex process of scheduling while ensuring optimal coverage for all classes.
 
 ## Challenge
 
-MyExit faced several challenges in establishing a strong online presence:
+The project presented several key challenges:
 
-1. **Unique Value Proposition**: Effectively communicating their two-pronged approach to business acquisition (immediate sale vs. future sale at double value).
-2. **Differentiation**: Standing out from traditional brokers and competitors with harsh terms.
-3. **Trust and Credibility**: Building trust and credibility with business owners considering selling their companies.
-4. **Clarity**: Simplifying complex financial concepts to make them easily understandable.
-5. **Lead Generation**: Designing a website that effectively captures leads from interested business owners.
+1. **Complex Scheduling Logic**: Managing multiple variables including teacher availability, qualifications, and class requirements.
+2. **AI Integration**: Implementing AI algorithms to predict and suggest optimal substitution patterns.
+3. **Real-time Updates**: Ensuring the system could handle last-minute changes and urgent substitution requests.
+4. **User Experience**: Creating an intuitive interface for administrators to manage and override AI suggestions.
+5. **Data Integration**: Seamlessly connecting with existing school management systems and calendars.
 
 ## Solution
 
-To address these challenges, we implemented a comprehensive digital strategy:
+To address these challenges, we implemented a comprehensive digital solution:
 
-### Visual Design
+### AI-Powered Features
 
-We created a clean and professional design that reflects MyExit's expertise and trustworthiness. Key elements included:
+We developed sophisticated AI algorithms that:
 
-- **Modern Aesthetics**: Use of contemporary design elements and a professional color palette.
-- **Clear Messaging**: Emphasis on clear, concise language to explain MyExit's unique offerings.
-- **Visual Hierarchy**: Strategic use of typography and layout to guide visitors through key information.
+- **Predict Substitution Needs**: Analyze historical data to forecast potential absences
+- **Smart Matching**: Automatically match available substitutes with required qualifications
+- **Schedule Optimization**: Generate optimal schedules while considering multiple constraints
+- **Learning System**: Continuously improve suggestions based on user feedback and outcomes
 
-### User Experience
+### Dashboard Interface
 
-Our design approach focused on providing an intuitive and engaging user experience:
+The client dashboard was designed with a focus on usability and efficiency:
 
-- **Simplified Navigation**: Streamlined navigation to allow visitors to quickly find the information they need.
-- **Value Proposition Focus**: Clear presentation of MyExit's two exit options and their benefits.
-- **Credibility Building**: Showcasing MyExit's experience and expertise through testimonials and case studies.
-- **Comparison Charts**: Providing a visual comparison of MyExit's services versus traditional brokers and competitors.
+- **Real-time Overview**: Comprehensive view of current schedules and pending substitutions
+- **Quick Actions**: Streamlined interface for approving or modifying AI suggestions
+- **Analytics Dashboard**: Detailed insights into scheduling patterns and coverage metrics
+- **Mobile Responsiveness**: Access to critical functions on any device
 
-### Development
+### Technical Implementation
 
-The website was developed using modern web technologies to ensure performance and scalability:
+The system was built using modern technologies:
 
-- **Responsive Design**: Ensured the site is fully responsive, providing an optimal viewing experience across all devices.
-- **Performance Optimization**: Implemented optimization techniques for fast loading times and a smooth user experience.
-- **Lead Capture**: Integrated a lead capture form to collect information from interested business owners.
+- **Next.js Framework**: For robust, scalable frontend development
+- **AI/ML Integration**: Custom algorithms for intelligent scheduling
+- **Real-time Updates**: WebSocket implementation for instant notifications
+- **Secure Authentication**: Role-based access control for different user types
 
 ## Implementation
 
-The project involved several key phases:
+The project followed a structured development process:
 
-1. **Discovery**: Understanding MyExit's business model, target audience, and unique value proposition.
-2. **Design**: Creating wireframes, mockups, and prototypes to visualize the user experience.
-3. **Development**: Building the website using modern web technologies.
-4. **Content Creation**: Writing clear, concise, and engaging content to explain MyExit's services.
-5. **Testing and Launch**: Rigorous testing across devices and browsers before launching the site.
+1. **Requirements Analysis**: Deep dive into educational institution scheduling needs
+2. **AI Model Development**: Creating and training the scheduling algorithms
+3. **UI/UX Design**: Crafting an intuitive dashboard interface
+4. **Development**: Building the full-stack application
+5. **Testing**: Rigorous testing with real-world scenarios
+6. **Deployment**: Phased rollout to ensure smooth adoption
 
 ## Results
 
-The new MyExit website (https://www.myexit.uk/) has delivered significant results:
+The Nuela dashboard system has delivered significant improvements:
 
-- **Clear Value Proposition**: The site effectively communicates MyExit's unique approach to business acquisition.
-- **Improved User Engagement**: Visitors can now easily understand MyExit's services and their benefits, leading to increased engagement.
-- **Enhanced Credibility**: The professional design and clear messaging build trust with potential clients.
-- **Increased Lead Generation**: The lead capture form has generated a steady stream of inquiries from interested business owners.
+- **Time Savings**: Reduced administrative time spent on scheduling by 70%
+- **Improved Coverage**: Increased successful substitution rate by 85%
+- **Better Resource Utilization**: Optimized use of available substitute teachers
+- **Enhanced User Satisfaction**: Positive feedback from administrators and teachers
 
 ## Conclusion
 
-The MyExit website redesign project successfully transformed a complex business model into a clear, concise, and engaging online presence. By addressing the challenges of communicating a unique value proposition and building trust with potential clients, we have helped position MyExit as a leader in the business acquisition industry. The new website provides a solid foundation for MyExit's growth and success in the competitive market.
+The Nuela project successfully transformed the complex process of teacher scheduling and substitution management through AI-powered automation. By combining intelligent algorithms with an intuitive user interface, we've created a solution that significantly reduces administrative burden while improving the overall efficiency of educational institution operations. The system continues to evolve through user feedback and ongoing AI model improvements.

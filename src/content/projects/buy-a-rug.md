@@ -1,7 +1,7 @@
 ---
 order: 3
 title: Buy a Rug
-description: Revitalizing the Digital Presence of a Legacy Rug Retailer
+description: Revitalizing the digital presence of a legacy rug retailer
 year: 2023
 client: Full Stack Consulting
 mainImage: ../../assets/work/buy-a-rug/main.webp

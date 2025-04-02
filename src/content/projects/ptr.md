@@ -1,7 +1,7 @@
 ---
 order: 1
 title: PTR
-description: Code migration, visual redesign & CMS transfer and setup for well-respected a Wokingham-based IT agency.
+description: Legacy code migration, visual redesign & data replatforming for the marketing website of a Wokingham-based IT agency
 year: 2024
 client: PTR Associates
 mainImage: ../../assets/work/ptr/main.webp
@@ -10,7 +10,16 @@ codeUrl: https://github.com/ianr78/wwwptr
 siteUrl: https://www.ptr.co.uk/
 oldSiteUrl: https://web.archive.org/web/20241121231357/https://www.ptr.co.uk/
 services:
-  ["Legacy Code Migration", "Visual Redesign", "CMS Setup", "Data Transfer"]
+  [
+    "Legacy Code Migration",
+    "Visual Redesign",
+    "Headless CMS Integration",
+    "Full Stack Development",
+    "Technical SEO",
+    "Data Replatforming",
+    "Email Marketing Automation",
+    "Web Analytics",
+  ]
 technologies: ["Next.js", "Tailwind CSS", "shadcn/ui", "Motion", "Contentful"]
 ---
 

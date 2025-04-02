@@ -1,10 +1,10 @@
 ---
 order: 5
 title: Bukitt Camino
-description: Site redesign & content overhaul for an eco-responsible personal care brand.
+description: Design and development of the marketing website for a Miami-based travel agency specialized in Camino de Santiago experiences
 year: 2022
-role: In-house Main Dev
-client: Bluefin Aviation Services
+role: In-house Developer
+client: Bukitt
 mainImage: ../../assets/work/bukitt-camino/main.webp
 category: Corporate Marketing
 siteUrl: https://www.bukittcamino.com/
