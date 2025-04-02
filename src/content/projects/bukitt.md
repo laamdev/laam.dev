@@ -6,8 +6,10 @@ year: 2021
 client: Bluefin Aviation Services
 mainImage: ../../assets/work/bukitt/main.webp
 category: Corporate Marketing
-services: ["End-to-End Development"]
-technologies: ["Next.js"]
+services:
+  ["End-to-End Development", "Brand Strategy", "Headless CMS Integration"]
+technologies:
+  ["Next.js", "Tailwind CSS", "Headless UI", "Sanity CMS", "Motion", "Sendgrid"]
 ---
 
 ## Introduction

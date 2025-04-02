@@ -8,7 +8,8 @@ mainImage: ../../assets/work/buy-a-rug/main.webp
 category: E-Commerce
 siteUrl: https://buyarug.co.uk/
 services: ["Legacy Code Migration", "Visual Redesign"]
-technologies: ["Next.js"]
+technologies:
+  ["Next.js", "Tailwind CSS", "Headless UI", "Elasticsearch", "Google Sheets"]
 ---
 
 ## Introduction
